@@ -24,7 +24,7 @@ h1, h2 {
     font-weight: 700;
     font-size: 280%;
     margin-left: 30px;
-    color: #4f4f4d;
+    color: #006D77;
 }
 
 #menu {
@@ -58,12 +58,35 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text {
+    color: #fff;
 }
 
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
+}
+
+#cover-text {
+    font-size: 110%;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 2px;
+
+    width: 800px;
+    height: 80px;
+
+    padding: 20px;
+
+    background-color: rgba(131, 197, 190, .7);
+
+    bottom: 30px;
+    left: 150px;
+    position:absolute
 }
