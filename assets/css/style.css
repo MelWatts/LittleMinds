@@ -24,6 +24,7 @@ h1, h2 {
     font-weight: 700;
     font-size: 280%;
     margin-left: 30px;
+    color: #4f4f4d;
 }
 
 #menu {
@@ -52,4 +53,17 @@ h1, h2 {
 
 .active {
     border-bottom: 2px solid #4f4f4d;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
