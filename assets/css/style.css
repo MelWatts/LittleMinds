@@ -23,7 +23,7 @@ h1, h2 {
     float:left;
     font-weight: 700;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 150px;
     color: #006D77;
 }
 
@@ -79,8 +79,8 @@ h1, h2 {
     font-family: Mulish, sans-serif;
     letter-spacing: 2px;
 
-    width: 800px;
-    height: 80px;
+    width: 300px;
+    height: 500px;
 
     padding: 20px;
 
@@ -89,4 +89,24 @@ h1, h2 {
     bottom: 30px;
     left: 150px;
     position:absolute
+}
+
+#info-section {
+    height: 600px;
+}
+
+#image-left {
+    padding-top: 10px;
+    width: 40%;
+    float: left;
+    margin: 20px;
+    height: 100%;
+    background: url('../images/image_left.jpg') no-repeat center center;
+    position: relative;
+}
+
+#text-right {
+    padding-top: 30px;
+    width: 40%;
+    float: right;
 }
