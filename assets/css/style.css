@@ -108,7 +108,7 @@ h1, h2 {
 
 #text-right {
     padding-top: 80px;
-    width: 50%;
+    width: 30%;
     float: right;
     margin: 10px;
     height: 100%;
@@ -126,4 +126,35 @@ h1, h2 {
     letter-spacing: 2px;
     margin-top: 10px;
     text-align: justify;
+}
+
+#bottom-info-section {
+    height: 600px;
+    margin: 20px;
+}
+
+#image-bullet-left {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url('../images/boy_running.jpg') no-repeat center center;
+}
+
+#bullet-text-left {
+    width: 400px;
+    height: 200px;
+    font-size: 90%;
+    font-family: Mulish, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 30px;
+    float: left;
+    background-color: #006D77;
+}
+
+#bullet-text-left li {
+    padding: 2px;
 }
