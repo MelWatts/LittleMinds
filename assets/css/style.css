@@ -176,6 +176,7 @@ hr {
     padding : 60px;
     margin-top: 40px;
     background: url('../images/boy_running.jpg') no-repeat center center;
+    position: absolute;
 }
 
 #bullet-text-left {
@@ -230,12 +231,29 @@ hr {
 }
 
 #footer {
-    background-color: #006D77;
-    height: 150px;
+    background-color: #006d77;
+    height: 200px;
 }
 
 #footer p {
     text-align: center;
     color: #fff;
     padding-top: 30px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display:inline;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.social-media i {
+    font-size: 180%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
 }
