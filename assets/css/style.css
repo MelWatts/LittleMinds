@@ -198,10 +198,11 @@ hr {
 }
 
 #image-bullet-right {
-    position: inherit;
+    position: absolute;
     width: 30%;
     height: 30%;
     float: right;
+    margin-left: 900px;
     padding : 60px;
     margin-top: 40px;
     background: url('../images/boy_blowing.jpg') no-repeat center center;
@@ -246,6 +247,7 @@ hr {
 
 .social-media > li {
     display:inline;
+    position: relative;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -255,4 +257,53 @@ hr {
     margin: 1%;
     padding: 5%;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    #bottom-info-section {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #image-left, #text-right {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #text-right {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #logo {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        clear: left;
+        float: left;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
 }
