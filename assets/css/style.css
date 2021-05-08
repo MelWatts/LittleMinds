@@ -128,6 +128,13 @@ h1, h2 {
     text-align: justify;
 }
 
+#static-image {
+    background: url('../images/trees.jpg') no-repeat center center;
+    background-attachment: fixed;
+    height: 400px;
+
+}
+
 #bottom-info-section {
     height: 600px;
     margin: 20px;
@@ -138,7 +145,6 @@ h1, h2 {
     height: 50%;
     float: left;
     padding-left: 10px;
-    padding-right: 10px;
     background: url('../images/boy_running.jpg') no-repeat center center;
 }
 
