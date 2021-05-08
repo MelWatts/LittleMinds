@@ -185,7 +185,7 @@ hr {
     font-family: Mulish, sans-serif;
     color: #006D77;
     letter-spacing: 2px;
-    margin-top: 300px;
+    margin-top: 280px;
     margin-left: 200px;
     padding: 30px;
     float: left;
@@ -195,4 +195,47 @@ hr {
 
 #bullet-text-left li {
     padding: 2px;
+}
+
+#image-bullet-right {
+    position: inherit;
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding : 60px;
+    margin-top: 40px;
+    background: url('../images/boy_blowing.jpg') no-repeat center center;
+}
+
+#bullet-text-right {
+    width: 400px;
+    height: 200px;
+    font-size: 90%;
+    font-family: Mulish, sans-serif;
+    color: #006D77;
+    letter-spacing: 2px;
+    margin-top: 280px;
+    margin-left: 700px;
+    padding: 30px;
+    float:right;
+    background-color: #fff;
+    position: absolute;
+}
+
+#bottom-info-section h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#footer {
+    background-color: #006D77;
+    height: 150px;
+}
+
+#footer p {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
 }
