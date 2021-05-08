@@ -98,6 +98,7 @@ h1, h2 {
 
 #image-left {
     padding-top: 10px;
+    padding-left: 200px;
     width: 40%;
     float: left;
     margin: 20px;
@@ -108,10 +109,11 @@ h1, h2 {
 
 #text-right {
     padding-top: 80px;
-    width: 30%;
+    width: 600px;
     float: right;
-    margin: 10px;
+    margin-right: 150px;
     height: 100%;
+    display: inline;
 }
 
 #text-right h2 {
@@ -138,13 +140,15 @@ h1, h2 {
 #bottom-info-section {
     height: 600px;
     margin: 20px;
+    background-color: #83C5BE;
 }
 
 #image-bullet-left {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     float: left;
-    padding-left: 10px;
+    padding : 60px;
+    margin-top: 40px;
     background: url('../images/boy_running.jpg') no-repeat center center;
 }
 
@@ -153,12 +157,14 @@ h1, h2 {
     height: 200px;
     font-size: 90%;
     font-family: Mulish, sans-serif;
-    color: #fff;
+    color: #006D77;
     letter-spacing: 2px;
-    margin-top: 10px;
+    margin-top: 300px;
+    margin-left: 200px;
     padding: 30px;
     float: left;
-    background-color: #006D77;
+    background-color: #fff;
+    position: absolute;
 }
 
 #bullet-text-left li {
