@@ -91,18 +91,28 @@ h1, h2 {
     position:absolute
 }
 
+hr {
+    border-bottom: 2px solid #fff;
+}
+
 #info-button {
+    font-size: large;
     background-color: #006D77;
     color:#fff;
+    border-radius: 8px;
     padding: 10px;
-    margin: 50px;
+    margin-left: 10px;
+    margin-top: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 #info-button:hover {
     background-color: #fff;
     color:#006D77;
     padding: 10px;
-    margin: 50px;
+    margin-left: 10px;
+    margin-top: 200px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #info-section {
