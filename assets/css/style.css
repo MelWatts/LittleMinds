@@ -302,6 +302,7 @@ hr {
     }
 
     #text-right {
+        float: left;
         display: contents;
         margin: 20px;
         padding-left: 50px;
