@@ -193,69 +193,48 @@ hr {
 }
 
 #bottom-info-section {
+    height: 700px;
+}
+
+#bottom-info-section h1 {
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-weight:700;
+    letter-spacing: 2px;
+    margin: 30px;
+    color: #E29578;
+}
+
+.container {
+    width: 33%;
     height: 600px;
-    margin: 20px;
-}
-
-#bullet-left {
-    background-color: #006d77;
-    color: #fff;
-    width: 85%;
     float: left;
-    height: 200px;
-    padding: 30px;
-    margin-top: 300px;
-    line-height: 25px;
-    position: relative;
+    border: 1px solid red;
+    margin: 0 auto;
 }
 
-#boy-running {
+.inner-container {
+    border: 1px solid #000;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#boy-running-img {
     background: url('../images/boy_running.jpg') no-repeat center center;
-    width: 33%;
+    width: 100%;
+    height: 300px;
     float: left;
-    height: 400px;
-}
-
-#boy-blowing {
-    background: url('../images/boy_blowing.jpg') no-repeat center center;
-    width: 33%;
-    float: left;
-    height: 400px;
-}
-
-#bullet-right {
-    background-color: #006d77;
-    color: #fff;
-    width: 85%;
-    float: left;
-    height: 200px;
-    padding: 30px;
-    margin-top: 300px;
-    line-height: 25px;
     position: relative;
 }
 
-#girls-playing {
-    background: url('../images/girls-playing.jpg') no-repeat center center;
-    width: 33%;
-    float: left;
-    height: 400px;
-}
-
-#bullet-mid {
-    background-color: #006d77;
-    color: #fff;
-    width: 85%;
-    float: left;
-    height: 200px;
-    padding: 30px;
-    margin-top: 300px;
+.bullets {
+    background-color: #E29578;
+    color:#fff;
     line-height: 25px;
-    position: relative;
+    width: 100%;
+    margin: 30px;
+    padding: 30px;
 }
-
-
-
 
 #footer {
     background-color: #006d77;
