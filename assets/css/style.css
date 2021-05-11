@@ -122,7 +122,9 @@ hr {
 }
 
 #container {
+    padding-top: 30px;
     height: 600px;
+    margin: 0 auto;
 }
 
 #image-left {
@@ -131,16 +133,15 @@ hr {
     float: left;
     height: 100%;
     margin-left: 30px;
+    margin-bottom: 50px;
     background: url('../images/image_left.jpg') no-repeat center center;
 }
 
 #text-mid {
-    padding-top: 30px;
+    margin: 0 auto;
+    padding-top: 100px;
     width: 33%;
-    margin:  0 auto;
-    height: 100%;
-    display: inline;
-    position: absolute;
+    height: 400px;
 }
 
 #image-right {
@@ -275,7 +276,7 @@ hr {
     #menu {
         clear: left;
         float: left;
-        margin-left: 10px;
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -283,7 +284,7 @@ hr {
     #logo {
         clear: left;
         float: left;
-        margin-left: 10px;
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -291,25 +292,46 @@ hr {
     #cover-text {
         clear: left;
         float: left;
-        margin-left: 0px;
         margin-bottom: 20px;
         line-height: 30px;
         letter-spacing: 2px;
     }
 
     #info-section {
-        clear: both;
-        float: left;
-        width: 65%;
-        height: 950px;
+        height: 1200px;
+        margin: 0 auto;
+        
     }
 
-    #container {
-        clear: both;
+    #image-left {
+        clear: left;
         float: left;
-        width: 100%;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
     }
 
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+
+    }
+
+    #text-mid {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 60%;
+        padding: 20px;
+        margin: 20px;
+        display: block;
+
+    }
 
     #bottom-info-section {
         clear: left;
