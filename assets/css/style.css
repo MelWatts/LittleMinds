@@ -149,7 +149,7 @@ hr {
     float: right;
     height: 100%;
     margin-right: 30px;
-    background: url('../images/image_left.jpg') no-repeat center center;
+    background: url('../images/image-right.jpg') no-repeat center center;
 }
 
 #text-mid h2 {
@@ -185,8 +185,9 @@ hr {
 #contact-button:hover {
     background-color: #fff;
     color:#006D77;
+    border-radius: 8px;
     padding: 10px;
-    margin-left: 5px;
+    margin-left: 40px;
     margin-top: 30px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -207,7 +208,7 @@ hr {
     font-weight:700;
     letter-spacing: 2px;
     margin: 30px;
-    color: #E29578;
+    color: #006D77;
 }
 
 .inner-container {
@@ -226,7 +227,7 @@ hr {
 }
 
 .bullets {
-    background-color: #E29578;
+    background-color: #83C5BE;
     color:#fff;
     line-height: 25px;
     width: 80%;
@@ -282,7 +283,9 @@ hr {
     color: #ffffff;
 }
 
+/* Resposive for larger to medium devices 1200px*/
 
+/* Resposive for mobile devices 950px*/
 
 @media screen and (max-width: 950px) {
     #menu {
@@ -342,6 +345,10 @@ hr {
         padding: 20px;
         margin: 20px;
 
+    }
+
+    #contact-button {
+        margin: 150 0;
     }
 
     #static-image {
