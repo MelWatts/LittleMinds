@@ -74,6 +74,36 @@ h1, h2 {
     background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
 }
 
+#hero-image-info {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero_info.jpg') no-repeat center center;
+}
+
+#hero-outer-info {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero_info.jpg') no-repeat center center;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image-contact {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-contact.jpg') no-repeat center center;
+}
+
+#hero-outer-contact {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-contact.jpg') no-repeat center center;
+    overflow: hidden;
+
+    position: relative;
+}
+
 #cover-text {
     font-size: 110%;
     font-family: Mulish, sans-serif;
@@ -193,7 +223,7 @@ hr {
 }
 
 #static-image {
-    background: url('../images/pexels-guduru-ajay-bhargav-939702.jpg') no-repeat center center;
+    background: url('../images/trees.jpg') no-repeat center center;
     background-attachment: fixed;
     height: 400px;
 }
@@ -348,7 +378,7 @@ hr {
     }
 
     #contact-button {
-        margin: 150 0;
+        margin: 150 0px;
     }
 
     #static-image {
