@@ -60,7 +60,6 @@ h1, h2 {
     width: 100%;
     background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -104,21 +103,18 @@ h1, h2 {
     position: relative;
 }
 
-#cover-text {
+#hero-text {
     font-size: 110%;
+    color: #fff;
     font-family: Mulish, sans-serif;
     letter-spacing: 2px;
-
     width: 300px;
     height: 500px;
-
     padding: 20px;
-
     background-color: rgba(131, 197, 190, .7);
-
     bottom: 30px;
     left: 150px;
-    position:absolute
+    position: absolute;
 }
 
 hr {
@@ -338,12 +334,22 @@ hr {
         display: none;
     }
 
-    #cover-text {
-        clear: left;
-        float: left;
-        margin-bottom: 20px;
-        line-height: 30px;
+    #hero-text {
+        font-size: 110%;
+        color: #fff;
+        font-family: Mulish, sans-serif;
         letter-spacing: 2px;
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color: rgba(131, 197, 190, .7);
+        bottom: 30px;
+        left: 40px;
+        position: absolute;
+    }
+
+    #info-button {
+        margin-top: 100px;
     }
 
     #info-section {
