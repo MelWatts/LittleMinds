@@ -321,17 +321,21 @@ hr {
     #menu {
         clear: left;
         float: left;
+        font-size: 85%;
         margin-left: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         line-height: 25px;
     }
 
     #logo {
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
         line-height: 25px;
+        margin: 30px;
+    }
+
+    #logo i {
+        display: none;
     }
 
     #cover-text {
