@@ -71,35 +71,6 @@ h1, h2 {
     width: 100%;
 }
 
-#hero-image-info {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero_info.jpg') no-repeat center center;
-}
-
-#hero-outer-info {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero_info.jpg') no-repeat center center;
-    overflow: hidden;
-
-    position: relative;
-}
-
-#hero-image-contact {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-contact.jpg') no-repeat center center;
-}
-
-#hero-outer-contact {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-contact.jpg') no-repeat center center;
-    overflow: hidden;
-
-    position: relative;
-}
 
 #hero-text {
     font-size: 110%;
@@ -348,6 +319,10 @@ hr {
         margin-top: 100px;
     }
 
+    #info-button:hover {
+        margin-top: 100px;
+    }
+
     #info-section {
         height: 1200px;
         margin: 0 auto;
@@ -377,7 +352,7 @@ hr {
         margin: 0 auto;
         clear: left;
         float: left;
-        width: 100%;
+        width: 90%;
         padding: 20px;
         bottom: 30px;
         left: 5px;
@@ -399,8 +374,7 @@ hr {
     }
 
     #static-image {
-        height: 300px;
-        margin: 0 auto;
+        display: none;
     }
 
     #bottom-info-section {
@@ -408,10 +382,17 @@ hr {
         margin: 0 auto;
     }
 
-    #bottom-info-section, h1 {
+    #bottom-info-section h2 {
+        text-align: left;
         clear: left;
         float: left;
         width: 80%;
+    }
+
+    .inner-container {
+        clear: left;
+        float: left;
+        width: 100%;
     }
 
     #footer {
