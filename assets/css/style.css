@@ -71,7 +71,6 @@ h1, h2 {
     width: 100%;
 }
 
-
 #hero-text {
     font-size: 110%;
     color: #fff;
@@ -224,6 +223,7 @@ hr {
     color:#fff;
     line-height: 25px;
     width: 80%;
+    height: 40%;
     display: block;
     margin: 0 auto;
     margin-top: 280px;
@@ -301,24 +301,19 @@ hr {
     }
 
     #info-section {
-        height: 1200px;
         margin: 0 auto;
-        
+        height: 700px;
     }
 
     #image-left {
-        clear: left;
-        float: left;
-        width: 80%;
+        width: 400px;
         height: 50%;
         padding: 10px;
         margin: 20px;
     }
 
     #image-right {
-        clear: left;
-        float: left;
-        width: 80%;
+        width: 400px;
         height: 50%;
         padding: 10px;
         margin: 20px;
@@ -326,9 +321,11 @@ hr {
     }
 
     #text-mid {
-        margin: 0 auto;
+        text-align: center;
         clear: left;
         float: left;
+        margin: 0 auto;
+        margin-top: 20px;
         width: 90%;
         padding: 20px;
         bottom: 30px;
@@ -351,21 +348,24 @@ hr {
     }
 
     #bottom-info-section {
-        height: 1200px;
+        height: 850px;
         margin: 0 auto;
     }
 
     #bottom-info-section h2 {
-        text-align: left;
+        margin: 0 auto;
+        padding: 20px;
         clear: left;
-        float: left;
         width: 80%;
     }
 
     .inner-container {
-        clear: left;
         float: left;
-        width: 100%;
+        display: inline-block
+    }
+
+    .bullets {
+        height: 50%;
     }
     
 }
