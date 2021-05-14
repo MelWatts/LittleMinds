@@ -58,7 +58,6 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
     overflow: hidden;
     position: relative;
 }
@@ -70,7 +69,6 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
 }
 
 #hero-image-info {
@@ -382,7 +380,7 @@ hr {
         width: 100%;
         padding: 20px;
         bottom: 30px;
-        left: 10px;
+        left: 5px;
         position: relative;
 
     }
