@@ -276,6 +276,19 @@ hr {
     color: #ffffff;
 }
 
+#contact-section {
+    background-color: lightgrey;
+    height: 600px;
+}
+
+#contact-section form {
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
 /* Resposive for larger to medium devices 1200px*/
 
 @media screen and (max-width: 1200px) {
