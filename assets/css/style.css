@@ -303,7 +303,7 @@ hr {
 #contact {
     margin: 0 auto;
     border: 2px solid #000;
-    background-color: #fff;
+    background-color: #EDF6F9;
     border-radius: 3px;
     width: 450px;
     height: 65%;
@@ -493,15 +493,12 @@ input {
     }
 
     #text-mid {
-        margin: 0 auto;
-        clear: left;
         float: left;
-        width: 90%;
-        padding: 20px;
+        width: 95%;
+        padding: 5px;
         bottom: 30px;
         left: 5px;
         position: relative;
-
     }
 
     #text-mid p {
@@ -537,6 +534,25 @@ input {
         clear: left;
         float: left;
         width: 100%;
+    }
+
+    .bullets {
+        height: 60%;
+        padding-top: 90px;
+    }
+
+    #contact-section p {
+        width: 80%;
+    }
+
+    #contact {
+        width: 70%;
+    }
+
+    #subject {
+        width: 250px;
+        height: 30%;
+
     }
 
     #footer {
