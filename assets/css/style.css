@@ -329,6 +329,17 @@ input {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+#video-section {
+    height: 400px;
+}
+
+#video-section video {
+    width: 600px;
+    height:300px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
 /* Resposive for larger to medium devices 1200px*/
 
 @media screen and (max-width: 1200px) {
