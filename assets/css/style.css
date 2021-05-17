@@ -346,7 +346,6 @@ input {
 
 #video-text {
     padding-top: 100px;
-    float: left;
     margin: 50px;
     display: inline-block;
     width: 500px;
@@ -438,7 +437,6 @@ input {
     }
 
     .inner-container {
-        float: left;
         display: inline-block
     }
 
