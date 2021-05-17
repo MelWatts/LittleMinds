@@ -251,6 +251,7 @@ hr {
 #footer {
     background-color: #006d77;
     height: 200px;
+    margin-top: 50px;
 }
 
 #footer p {
@@ -272,6 +273,7 @@ hr {
 
 .social-media {
     text-align: center;
+    margin: auto;
 }
 
 .social-media > li {
@@ -330,14 +332,22 @@ input {
 }
 
 #video-section {
+    height: 600px;
+}
+
+#video-section iframe {
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
     height: 400px;
 }
 
-#video-section video {
-    width: 600px;
-    height:300px;
+#video-text {
+    margin-top: 0;
+    position: relative;
     display: inline-block;
-    margin: 0 auto;
+    width: 400px;
+    height: 400px;
 }
 
 /* Resposive for larger to medium devices 1200px*/
