@@ -382,7 +382,7 @@ input {
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
         bottom: 100px;
-        left: 20px;
+        left: 50px;
         position: absolute;
     }
 
@@ -413,6 +413,7 @@ input {
         margin: 0 auto;
         margin-top: 20px;
         width: 90%;
+        height:50%;
         padding: 20px;
         bottom: 30px;
         left: 5px;
@@ -426,10 +427,6 @@ input {
 
     #text-mid h2 {
         margin: 5px;
-    }
-
-    #contact-button {
-        margin: 150px 0px;
     }
 
     #bottom-info-section {
@@ -450,6 +447,18 @@ input {
 
     .bullets {
         height: 50%;
+    }
+
+    div iframe {
+        align-items: center;
+        padding-top: 30px;
+        float:left;
+    }
+
+    #video-text {
+        width: 40%;
+        position: absolute;
+        margin: 0 auto;
     }
     
 }
