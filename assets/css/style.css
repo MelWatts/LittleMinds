@@ -14,6 +14,17 @@ body {
 
 
 /* header and logo style*/
+
+nav {
+    overflow: hidden;
+    background-color: #006D77;
+    color: #fff;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 9999;
+}
+
 h1, h2 {
     font-family: Mulish, sans-serif;
     text-transform: uppercase;
@@ -24,7 +35,7 @@ h1, h2 {
     font-weight: 700;
     font-size: 280%;
     margin-left: 150px;
-    color: #006D77;
+    color: #fff;
 }
 
 #menu {
@@ -48,22 +59,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #4f4f4d;
+    border-bottom: 2px solid #fff;
 }
 
 .active {
-    border-bottom: 2px solid #4f4f4d;
-}
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#cover-text {
-    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .hero-image {
@@ -80,7 +80,7 @@ h1, h2 {
     height: 500px;
     padding: 20px;
     background-color: rgba(131, 197, 190, .7);
-    bottom: 30px;
+    bottom: 80px;
     left: 150px;
     position: absolute;
 }
@@ -164,14 +164,13 @@ hr {
 }
 
 #contact-button {  
-    text-align: center;
     font-size: large;
     background-color: #006D77;
     color:#fff;
     border-radius: 8px;
     padding: 10px;
+    margin-left: 75px;
     margin-top: 30px;
-    margin-left: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -180,8 +179,8 @@ hr {
     color:#006D77;
     border-radius: 8px;
     padding: 10px;
+    margin-left: 75px;
     margin-top: 30px;
-    margin-left: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -293,12 +292,14 @@ hr {
 #contact-section {
     background-color: #006D77;
     height: 600px;
+    margin:auto;
 }
 
 #contact-section p {
     color: #fff;
     width: 40%;
     margin: auto;
+    margin-top:50px;
     text-align: center;
     padding: 30px;
 }
@@ -518,7 +519,7 @@ input {
 
     #text-mid {
         float: left;
-        width: 95%;
+        width: 100%;
         padding: 5px;
         bottom: 30px;
         left: 5px;
@@ -528,14 +529,33 @@ input {
     #text-mid p {
         margin: 5px;
         font-size: 1em;
+        position: absolute;
     }
 
     #text-mid h2 {
         margin: 5px;
     }
 
+    #mid-text form {
+        height: auto;
+    }
+
     #contact-button {
-        margin: 150px 0px;
+        background-color: #006D77;
+        color:#fff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 320px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #contact-button:hover {
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 320px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
     #static-image {
