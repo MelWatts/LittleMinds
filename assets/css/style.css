@@ -67,8 +67,12 @@ h1, h2 {
 }
 
 .hero-image {
+    overflow: hidden;  
+    clear:both;
+    display: block;
     height: 600px;
     width: 100%;
+    margin-top: 70px;
 }
 
 #hero-text {
@@ -80,7 +84,7 @@ h1, h2 {
     height: 500px;
     padding: 20px;
     background-color: rgba(131, 197, 190, .7);
-    bottom: 80px;
+    bottom: 100px;
     left: 150px;
     position: absolute;
 }
@@ -358,10 +362,14 @@ input {
 
 @media screen and (max-width: 1200px) {
 
+    #hero-image {
+        height: 600px;
+    }
+
     #logo {
         clear: left;
         float: left;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     #hero-text {
@@ -373,7 +381,7 @@ input {
         height: 500px;
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
-        bottom: 30px;
+        bottom: 100px;
         left: 20px;
         position: absolute;
     }
@@ -409,7 +417,6 @@ input {
         bottom: 30px;
         left: 5px;
         position: relative;
-
     }
 
     #text-mid p {
@@ -454,7 +461,7 @@ input {
         clear: left;
         float: left;
         font-size: 85%;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-bottom: 15px;
         line-height: 25px;
     }
@@ -464,10 +471,16 @@ input {
         float: left;
         line-height: 25px;
         margin: 30px;
+        letter-spacing: 2px;
     }
 
     #logo i {
         display: none;
+    }
+
+    #hero-image {
+        position: relative;
+        height: 100%;
     }
 
     #hero-text {
@@ -476,10 +489,10 @@ input {
         font-family: Mulish, sans-serif;
         letter-spacing: 2px;
         width: 300px;
-        height: 500px;
+        height: 400px;
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
-        bottom: 30px;
+        bottom: 100px;
         left: 20px;
         position: absolute;
     }
@@ -546,15 +559,16 @@ input {
         border-radius: 8px;
         padding: 10px;
         margin-top: 320px;
+        margin-left: 50px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
     #contact-button:hover {
+        margin-top: 320px;
+        margin-left: 50px;
         background-color: #fff;
         color:#006D77;
         border-radius: 8px;
-        padding: 10px;
-        margin-top: 320px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
@@ -582,17 +596,20 @@ input {
 
     .bullets {
         height: 60%;
-        padding-top: 90px;
+        padding-top: 80px;
     }
 
     #contact-section p {
         width: 80%;
+        clear: both;
     }
 
     #contact {
         width: 70%;
-        margin-bottom: 20px;
+        position: relative;
+        bottom: 20px;
     }
+
 
     #subject {
         width: 250px;
@@ -603,7 +620,7 @@ input {
         clear: left;
         float: left;
         margin-left: 0px;
-        height: 200px;
+        height: 150px;
         width: 100%;
     }
 
