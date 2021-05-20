@@ -360,12 +360,11 @@ input {
 }
 
 .video-section iframe {
-    Width: 500px;
+    Width: 600px;
     height: 300px;
     align-items: center;
     float: left;
-    margin: 5px;
-    padding: 30px;
+    padding: 10px 10px;
 }
 
 .video-text {
@@ -381,28 +380,32 @@ input {
 }
 
 #links-section {
+    text-align: center;
     height: 600px;
 
 }
 
 .links {
-
     display: inline-block;
     width: 40%;
     margin: 30px;
     padding: 10px;
-    border: 1px solid #006D77;
+    border: 1px solid #fff;
     border-radius: 10px;
+    background-color: #006D77;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .links ul {
+    color: #fff;
     display: inline-block;
     padding: 30px;
 }
 
 .links a {
-    text-decoration: none;
     text-align: left;
+    color: #fff;
+    text-decoration: none;
 }
 
 .links a:hover {
@@ -472,12 +475,7 @@ input {
     }
 
     #text-mid p {
-        margin: 5px;
         font-size: 1em;
-    }
-
-    #text-mid h2 {
-        margin: 5px;
     }
 
     #bottom-info-section {
