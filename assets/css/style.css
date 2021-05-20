@@ -86,7 +86,7 @@ h1, h2 {
     background-color: rgba(131, 197, 190, .7);
     bottom: 100px;
     left: 150px;
-    position: absolute;
+    position: sticky;
 }
 
 hr {
@@ -336,26 +336,31 @@ input {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#video-section {
-    height: 500px;
+.video-section {
+    height: 600px;
     text-align: center;
 }
 
-#video-section iframe {
-    align-items: center;
-    padding-top: 30px;
-    float: left;
-    margin: 50px;
-    margin-left: 15vw; 
+.card {
+    display: inline-block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-#video-text {
-    padding-top: 100px;
-    margin: 50px;
-    display: inline-block;
-    width: 500px;
+.video-section iframe {
+    Width: 500px;
+    height: 300px;
+    align-items: center;
+    float: left;
+    margin: 5px;
+    padding: 30px;
+}
+
+.video-text {
     text-align: justify;
     line-height: 30px;
+    margin: 30px;
 }
 
 /* Resposive for larger to medium devices 1200px*/
@@ -450,9 +455,15 @@ input {
     }
 
     div iframe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 4rem 0;
+        font-size: 1.1rem;
+        text-align: center;
+        list-style-type: none;
+        width: 100%;
         align-items: center;
-        padding-top: 30px;
-        float:left;
     }
 
     #video-text {
