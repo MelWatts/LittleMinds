@@ -374,6 +374,37 @@ input {
     margin: 0 auto;
 }
 
+#links-section h2 {
+    text-align: center;
+    color: #006D77;
+    margin: 15px;
+}
+
+#links-section {
+    height: auto;
+    display: inline-block;
+}
+
+.links {
+    border: 1px solid #006D77;
+    border-radius: 10px;
+    width: 40%;
+    margin: 30px;
+}
+
+.links ul {
+    padding: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    text-align: left;
+}
+
+.links a:hover {
+    color: #E29578;
+}
+
 /* Resposive for larger to medium devices 1200px*/
 
 @media screen and (max-width: 1200px) {
