@@ -345,6 +345,7 @@ input {
     display: inline-block;
     width: 40%;
     margin: 0 auto;
+    margin-bottom: 50px;
     padding: 50px;
 }
 
@@ -360,7 +361,7 @@ input {
 .video-text {
     text-align: justify;
     line-height: 30px;
-    margin: 30px;
+    margin: 0 auto;
 }
 
 /* Resposive for larger to medium devices 1200px*/
@@ -454,21 +455,36 @@ input {
         height: 50%;
     }
 
-    div iframe {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 4rem 0;
-        font-size: 1.1rem;
+    .video-section {
+        height: 800px;
         text-align: center;
-        list-style-type: none;
-        width: 100%;
-        align-items: center;
     }
 
     #video-text {
         width: 40%;
         position: absolute;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: inline-grid;
+        width: 400px;
+        height: 700px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+    
+    .video-section iframe {
+        Width: 400px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    
+    .video-text {
+        width: 400px;
+        text-align: justify;
+        line-height: 30px;
         margin: 0 auto;
     }
     
@@ -634,6 +650,16 @@ input {
     #subject {
         width: 250px;
         height: 30%;
+    }
+
+    .video-section {
+        height: auto;
+        text-align: center;
+    }
+
+    .card {
+        margin: 5px;
+        padding: 0mm;
     }
 
     #footer {
