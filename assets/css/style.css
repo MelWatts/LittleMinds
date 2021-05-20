@@ -381,18 +381,22 @@ input {
 }
 
 #links-section {
-    height: auto;
-    display: inline-block;
+    height: 600px;
+
 }
 
 .links {
-    border: 1px solid #006D77;
-    border-radius: 10px;
+
+    display: inline-block;
     width: 40%;
     margin: 30px;
+    padding: 10px;
+    border: 1px solid #006D77;
+    border-radius: 10px;
 }
 
 .links ul {
+    display: inline-block;
     padding: 30px;
 }
 
