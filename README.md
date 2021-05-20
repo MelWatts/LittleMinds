@@ -8,9 +8,12 @@ Little minds is a website designed to help and give information to parents and c
 
 #User stories
 #First time visitor goals
+
 •	As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
 •	As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
+
 #Returning visitor goals:
+
 •	As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
 •	As a returning visitor, my aim is for the visitor to feel confident and reassured in the content and information given.
 
