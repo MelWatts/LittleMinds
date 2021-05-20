@@ -702,8 +702,31 @@ input {
     }
 
     .card {
-        margin: 5px;
-        padding: 0mm;
+        width: 100%;
+        float: left;
+        padding: 4px;
+    }
+
+    #horizontal-line {
+        border-top: 5px solid #006D77;
+      }
+
+    .links {
+        float: left;
+        clear: both;
+        display: inline-block;
+        width: 90%;
+        margin: 30px;
+        padding: 10px;
+    }
+
+    #links-section h2 {
+        text-align: center;
+    }
+    
+    #links-section {
+        height: auto;
+        text-align: center;
     }
 
     #footer {
