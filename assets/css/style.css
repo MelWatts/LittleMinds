@@ -416,8 +416,13 @@ input {
 
 @media screen and (max-width: 1200px) {
 
-    #hero-image {
+    .hero-image {
+        overflow: hidden;  
+        clear:both;
+        display: block;
         height: 600px;
+        width: 100%;
+        margin-top: 70px;
     }
 
     #logo {
@@ -738,9 +743,9 @@ input {
     }
 
 }
-/* Resposive for mobile devices min 375px*/
+/* Responsive for mobile devices min 375px*/
 
-@media screen and (min-width: 375px) {
+/*@media screen and (min-width: 375px) {
     #menu {
         clear: left;
         float: left;
@@ -960,6 +965,7 @@ input {
     }
 
 }
+
 @media screen and (min-width: 730px) {
     #menu {
         clear: left;
@@ -979,7 +985,6 @@ input {
     }
 
     .hero-image {
-        width: 800px;
         position: relative;
     }
 
@@ -1097,4 +1102,4 @@ input {
     }
 
 
-}
+}*/
