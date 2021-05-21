@@ -7,12 +7,12 @@
 Little minds is a website designed to help and give information to parents and carers of children with mental health issues.
 
 #User stories
-#First time visitor goals
+##First time visitor goals
 
 •	As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
 •	As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
 
-#Returning visitor goals:
+##Returning visitor goals:
 
 •	As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
 •	As a returning visitor, my aim is for the visitor to feel confident and reassured in the content and information given.
@@ -20,11 +20,14 @@ Little minds is a website designed to help and give information to parents and c
 
 Design
 Colour Scheme
-The two main colours used are Code Insititue red, and white.
+The two main colours used are #006D77 and #83C5BE Teal. Calming but child like colours.
+
 Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+Mulish font is use primarily in Headers sections and Montserrat is used for the body. I searched a good comparison on google fonts and thought they worked well together, clear to read.
+
 Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. I chose children playing throughout teh site so people who are worried about their children will feel at ease. No gloomy unhappy images used.
+
 Wireframes
 Home Page Wireframe - View
 

@@ -376,7 +376,6 @@ input {
 #links-section h2 {
     text-align: center;
     color: #006D77;
-    margin: 15px;
 }
 
 #links-section {
@@ -727,6 +726,229 @@ input {
     #links-section {
         height: auto;
         text-align: center;
+    }
+
+    #footer {
+        clear: left;
+        float: left;
+        margin-left: 0px;
+        height: 150px;
+        width: 100%;
+    }
+
+}
+/* Resposive for mobile devices min 375px*/
+
+@media screen and (min-width: 375px) {
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 65%;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    #logo {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin: 15px;
+        letter-spacing: 2px;
+    }
+
+    #logo i {
+        display: none;
+    }
+
+    #hero-image {
+        position: relative;
+        height: 100%;
+    }
+
+    #hero-text {
+        display: grid;
+        font-size: 110%;
+        color: #fff;
+        font-family: Mulish, sans-serif;
+        letter-spacing: 2px;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        background-color: rgba(131, 197, 190, .7);
+        bottom: 100px;
+        left: 20px;
+        position: absolute;
+    }
+
+    #info-button {
+        margin-top: 100px;
+    }
+
+    #info-button:hover {
+        margin-top: 100px;
+    }
+
+    #info-section {
+        height: 1200px;
+        margin: 0 auto;
+        
+    }
+
+    #image-left {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+
+    }
+
+    #text-mid {
+        float: left;
+        width: 100%;
+        padding: 5px;
+        bottom: 30px;
+        left: 5px;
+        position: relative;
+    }
+
+    #text-mid p {
+        width: 90%;
+        margin: 5px;
+        font-size: 1em;
+        position: absolute;
+        align-items: center;
+    }
+
+    #text-mid h2 {
+        margin: 5px;
+    }
+
+    #mid-text form {
+        height: auto;
+    }
+
+    #contact-button {
+        background-color: #006D77;
+        color:#fff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 320px;
+        margin-left: 50px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #contact-button:hover {
+        margin-top: 320px;
+        margin-left: 50px;
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #static-image {
+        display: none;
+    }
+
+    #bottom-info-section {
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #bottom-info-section h2 {
+        text-align: left;
+        clear: left;
+        float: left;
+        width: 80%;
+    }
+
+    .inner-container {
+        clear: left;
+        float: left;
+        width: 100%;
+    }
+
+    .bullets {
+        height: 60%;
+        padding-top: 80px;
+    }
+
+    #contact-section p {
+        width: 80%;
+        clear: both;
+    }
+
+    #contact {
+        width: 70%;
+        position: relative;
+        bottom: 20px;
+    }
+
+
+    #subject {
+        width: 250px;
+        height: 30%;
+    }
+
+    .video-section {
+        height: auto;
+    }
+
+    .card {
+        position: relative;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .card iframe {
+        width: 100%;
+        float: left;
+        padding: 4px;
+    }
+
+
+    .card p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: small;
+    }
+
+    #horizontal-line {
+        border-top: 5px solid #006D77;
+      }
+
+    .links {
+        float: left;
+        clear: both;
+        display: inline-block;
+        width: 90%;
+        margin: 30px;
+        padding: 10px;
+    }
+
+    #links-section h2 {
+        text-align: center;
+        margin: 10px;
+    }
+    
+    #links-section {
+        float: left;
+        position: relative;
+        width: 330px;
+        margin: 0 auto;
+        text-align: left;
     }
 
     #footer {
