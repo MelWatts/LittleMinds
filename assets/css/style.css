@@ -74,7 +74,7 @@ h1, h2 {
     margin-top: 70px;
 }
 
-#hero-text {
+.hero-text {
     position: absolute;
     font-size: 110%;
     color: #fff;
@@ -358,13 +358,19 @@ input {
 #help{
     margin: 0 auto;
     width: 50%;
-    line-height: 20px;
+    line-height: 30px;
     text-align: justify;
 }
 
+#vid-head {
+    background-color: #006D77;
+    color: #fff;
+}
+
 .card {
-    display: inline-block;
-    width: 40%;
+    display: inline-grid;
+    text-align: center;
+    width: 600px;
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 50px;
@@ -396,7 +402,7 @@ input {
 }
 
 .links {
-    display: inline-block;
+    display: inline-grid;
     width: 40%;
     margin: 30px;
     padding: 10px;
@@ -431,6 +437,7 @@ input {
         font-size: 85%;
         margin-left: 30px;
         margin-bottom: 15px;
+        margin-top: 25px;
         line-height: 25px;
     }
 
@@ -439,11 +446,31 @@ input {
         float: left;
         line-height: 25px;
         margin-left: 30px;
-        letter-spacing: 2px;
+        margin-top: 25px;
+        letter-spacing: 5px;
+    }
+
+    #logo i {
+        display: none;
     }
 
     .hero-image {
         position: relative;
+    }
+
+    .hero-text {
+        display: grid;
+        font-size: 110%;
+        color: #fff;
+        font-family: Mulish, sans-serif;
+        letter-spacing: 2px;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        background-color: rgba(131, 197, 190, .7);
+        bottom: 100px;
+        left: 20px;
+        position: absolute;
     }
 
     #info-section {
@@ -451,9 +478,46 @@ input {
         margin: 0 auto; 
     }
 
-    #text-mid h2 {
-        text-align: center;
+    #image-left {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+
+    }
+
+    #text-mid {
+        float: left;
+        width: 100%;
+        padding: 5px;
+        bottom: 30px;
+        left: 5px;
+        position: relative;
+    }
+
+    #text-mid p {
         margin: 5px;
+        font-size: 1em;
+        position: absolute;
+    }
+
+    #text-mid h2 {
+        margin: 5px;
+    }
+
+    #mid-text form {
+        height: auto;
     }
 
     #contact-button {
@@ -461,7 +525,8 @@ input {
         color:#fff;
         border-radius: 8px;
         padding: 10px;
-        margin-top: 180px;
+        margin-top: 320px;
+        margin-left: 50px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
@@ -474,11 +539,20 @@ input {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
-    #bottom-info-section h2 {
-        width: 90%;
-        text-align: center;
+    #static-image {
+        display: none;
+    }
+
+    #bottom-info-section {
+        height: 1200px;
         margin: 0 auto;
-        padding: 20px;
+    }
+
+    #bottom-info-section h2 {
+        text-align: left;
+        clear: left;
+        float: left;
+        width: 80%;
     }
 
     .inner-container {
@@ -489,7 +563,7 @@ input {
 
     .bullets {
         height: 60%;
-        padding-top: 40px;
+        padding-top: 80px;
     }
 
     #contact-section p {
@@ -513,24 +587,45 @@ input {
         height: auto;
     }
 
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        margin: 50px;
+    }
+    
+    #help{
+        margin: 0 auto;
+        width: 85%;
+        line-height: 30px;
+        text-align: justify;
+    }
+
     .card {
-        position: relative;
-        width: 350px;
+    display: inline-block;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .video-section iframe {
+        Width: 200px;
+        height: 300px;
         margin: 0 auto;
     }
 
-    .card iframe {
-        width: 100%;
-        float: left;
-        padding: 4px;
-    }
-
-    .card p {
-        display: inline-block;
-    }
+    /*.video-text {
+        margin: 0 auto;
+        width: 85%;
+        line-height: 30px;
+        text-align: justify;
+    }*/
 
     #horizontal-line {
-        display:none;
+        border-top: 5px solid #006D77;
+        margin: 10px;
       }
 
     .links {
@@ -543,11 +638,11 @@ input {
 
     #links-section h2 {
         text-align: center;
-        margin: 10px;
     }
     
     #links-section {
-        width: 90%;
+        height: auto;
+        text-align: center;
     }
 
     #footer {
@@ -557,12 +652,13 @@ input {
         height: 150px;
         width: 100%;
     }
+
 }
 
 
 /* Resposive for mobile devices 767px*/
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     #menu {
         clear: left;
         float: left;
@@ -589,7 +685,7 @@ input {
         height: 100%;
     }
 
-    #hero-text {
+    .hero-text {
         display: grid;
         font-size: 110%;
         color: #fff;
@@ -767,7 +863,7 @@ input {
 
 /* Resposive for larger to medium devices 1030px*/
 
-@media screen and (max-width: 1030px) {
+/*@media screen and (max-width: 1030px) {
 
     .hero-image {
         overflow: hidden;  
@@ -914,7 +1010,7 @@ input {
 
 /* Resposive for larger to medium devices 1366px*/
 
-@media screen and (max-width: 1366px) {
+/*@media screen and (max-width: 1366px) {
 
     .hero-image {
         overflow: hidden;  
