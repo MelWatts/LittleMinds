@@ -69,24 +69,24 @@ h1, h2 {
 .hero-image {
     overflow: hidden;  
     clear:both;
-    display: block;
     height: 600px;
     width: 100%;
     margin-top: 70px;
 }
 
 #hero-text {
+    position: absolute;
     font-size: 110%;
     color: #fff;
     font-family: Mulish, sans-serif;
     letter-spacing: 2px;
     width: 300px;
-    height: 500px;
+    height: 400px;
     padding: 20px;
     background-color: rgba(131, 197, 190, .7);
+    top: 100px;
     bottom: 100px;
     left: 150px;
-    position: sticky;
 }
 
 hr {
@@ -100,7 +100,7 @@ hr {
     border-radius: 8px;
     padding: 10px;
     margin-left: 10px;
-    margin-top: 200px;
+    margin-top: 50px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -109,7 +109,7 @@ hr {
     color:#006D77;
     padding: 10px;
     margin-left: 10px;
-    margin-top: 200px;
+    margin-top: 50px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -294,14 +294,12 @@ hr {
 #contact-section {
     background-color: #006D77;
     height: 600px;
-    margin:auto;
 }
 
 #contact-section p {
     color: #fff;
     width: 40%;
-    margin: auto;
-    margin-top:50px;
+    margin: 0 auto;
     text-align: center;
     padding: 30px;
 }
@@ -347,8 +345,21 @@ input {
 }
 
 .video-section {
-    height: 600px;
+    height: auto;
     text-align: center;
+}
+
+#help h2{
+    text-align: center;
+    color: #006D77;
+    margin: 50px;
+}
+
+#help{
+    margin: 0 auto;
+    width: 50%;
+    line-height: 20px;
+    text-align: justify;
 }
 
 .card {
@@ -363,7 +374,6 @@ input {
     Width: 600px;
     height: 300px;
     align-items: center;
-    float: left;
     padding: 10px 10px;
 }
 
@@ -381,7 +391,7 @@ input {
 
 #links-section {
     text-align: center;
-    height: 600px;
+    height: 400px;
 
 }
 
@@ -418,7 +428,7 @@ input {
     #menu {
         clear: left;
         float: left;
-        font-size: 75%;
+        font-size: 85%;
         margin-left: 30px;
         margin-bottom: 15px;
         line-height: 25px;
@@ -524,7 +534,6 @@ input {
       }
 
     .links {
-        float: left;
         clear: both;
         display: inline-block;
         width: 90%;
