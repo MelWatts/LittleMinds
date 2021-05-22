@@ -434,8 +434,8 @@ input {
     #menu {
         clear: left;
         float: left;
-        font-size: 85%;
-        margin-left: 30px;
+        font-size: 65%;
+        margin-left: 25px;
         margin-bottom: 15px;
         margin-top: 25px;
         line-height: 25px;
@@ -445,9 +445,9 @@ input {
         clear: left;
         float: left;
         line-height: 25px;
-        margin-left: 30px;
+        margin-left: 25px;
         margin-top: 25px;
-        letter-spacing: 5px;
+        letter-spacing: 3px;
     }
 
     #logo i {
@@ -474,7 +474,7 @@ input {
     }
 
     #info-section {
-        height: 800px;
+        height: auto;
         margin: 0 auto; 
     }
 
@@ -507,7 +507,9 @@ input {
     }
 
     #text-mid p {
-        margin: 5px;
+        width: 90%;
+        display: inline-grid;
+        margin: 3px;
         font-size: 1em;
         position: absolute;
     }
@@ -566,6 +568,10 @@ input {
         padding-top: 80px;
     }
 
+    #contact-section {
+        height: auto;
+    }
+
     #contact-section p {
         width: 80%;
         clear: both;
@@ -601,17 +607,19 @@ input {
     }
 
     .card {
-    width: 17rem;
-    margin: 0 auto;
-    line-height: 30px;
-    text-align: justify;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 95%;
+        padding: 5px;
+        margin: 0 auto;
+        line-height: 30px;
+        text-align: justify;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
     .video-section iframe {
-        Width: 100%;
+        clear:left;
+        Width: 300px;
         height: 300px;
         margin: 0 auto;
     }
