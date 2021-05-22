@@ -666,12 +666,12 @@ input {
 
 /* Resposive for mobile devices 767px*/
 
-/*@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     #menu {
         clear: left;
         float: left;
         font-size: 85%;
-        margin-left: 20px;
+        margin-left: 30px;
         margin-bottom: 15px;
         line-height: 25px;
     }
@@ -694,7 +694,6 @@ input {
     }
 
     .hero-text {
-        display: grid;
         font-size: 110%;
         color: #fff;
         font-family: Mulish, sans-serif;
@@ -703,9 +702,9 @@ input {
         height: 400px;
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
+        top: 150px;
         bottom: 100px;
         left: 20px;
-        position: absolute;
     }
 
     #info-button {
