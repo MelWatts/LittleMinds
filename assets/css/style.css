@@ -66,12 +66,22 @@ h1, h2 {
     border-bottom: 2px solid #fff;
 }
 
-.hero-image {
-    overflow: hidden;  
-    clear:both;
+#hero-image-home {
     height: 600px;
     width: 100%;
-    margin-top: 70px;
+    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
+}
+
+#hero-image-info {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero_info.jpg ') no-repeat center center;
+}
+
+#hero-image-contact {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-contact.jpg') no-repeat center center;
 }
 
 .hero-text {
@@ -343,6 +353,7 @@ input {
     font-weight: 700;
 }
 
+
 .video-section {
     height: auto;
     text-align: center;
@@ -356,7 +367,7 @@ input {
 
 #help{
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     line-height: 30px;
     text-align: justify;
 }
@@ -365,15 +376,14 @@ input {
     background-color: #006D77;
     color: #fff;
     padding: 10px;
+    text-align: center;
 }
 
 .card {
     display: inline-grid;
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    padding: 50px;
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
 }
 
 .video-section iframe {
@@ -381,9 +391,11 @@ input {
     height: 300px;
     align-items: center;
     padding: 10px 10px;
+    margin: 0 auto;
 }
 
 .video-text {
+    width: 600px;
     text-align: justify;
     line-height: 30px;
     margin: 0 auto;
@@ -428,9 +440,13 @@ input {
     color: #E29578;
 }
 
-/* Responsive for mobile devices max 420px*/
+/* Responsive for mobile devices max 5750px*/
+@media screen and (min-width: 360px) 
+and (max-width: 575px){
 
-@media screen and (max-width: 420px) {
+    html {
+        overflow-x: hidden;
+    }
     #menu {
         clear: left;
         float: left;
@@ -454,8 +470,21 @@ input {
         display: none;
     }
 
-    .hero-image {
-        position: relative;
+    #hero-image-home {
+        width: auto;
+        background: url('../images/mobile_images_home.jpg') no-repeat center center;
+    }
+    
+    #hero-image-info {
+        height: 600px;
+        width: 100%;
+        background: url('../images/hero_info.jpg ') no-repeat center center;
+    }
+    
+    #hero-image-contact {
+        height: 600px;
+        width: 100%;
+        background: url('../images/hero-contact.jpg') no-repeat center center;
     }
 
     .hero-text {
@@ -589,10 +618,6 @@ input {
         height: 30%;
     }
 
-    .video-section {
-        height: auto;
-    }
-
     #help h2{
         text-align: center;
         color: #006D77;
@@ -607,28 +632,18 @@ input {
     }
 
     .card {
-        width: 95%;
-        padding: 5px;
-        margin: 0 auto;
-        line-height: 30px;
-        text-align: justify;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .video-section iframe {
-        clear:left;
-        Width: 300px;
+        Width: 350px;
         height: 300px;
-        margin: 0 auto;
     }
 
     .video-text {
-        margin: 0 auto;
         width: 95%;
-        line-height: 30px;
-        text-align: justify;
     }
 
     #horizontal-line {
@@ -656,7 +671,6 @@ input {
     #footer {
         clear: left;
         float: left;
-        margin-left: 0px;
         height: 150px;
         width: 100%;
     }
@@ -664,9 +678,15 @@ input {
 }
 
 
-/* Resposive for mobile devices 767px*/
+/* Resposive for mobile devices 576px*/
+@media screen and (min-width: 576px)
+and (max-width: 767px) {
 
-@media screen and (max-width: 767px) {
+    html {
+        overflow-x: hidden;
+    }
+
+
     #menu {
         clear: left;
         float: left;
@@ -686,11 +706,6 @@ input {
 
     #logo i {
         display: none;
-    }
-
-    #hero-image {
-        position: relative;
-        height: 100%;
     }
 
     .hero-text {
@@ -716,7 +731,7 @@ input {
     }
 
     #info-section {
-        height: 1200px;
+        height: auto;
         margin: 0 auto;
         
     }
@@ -737,7 +752,6 @@ input {
         height: 50%;
         padding: 10px;
         margin: 20px;
-
     }
 
     #text-mid {
@@ -750,32 +764,29 @@ input {
     }
 
     #text-mid p {
-        margin: 5px;
+        width: auto;
+        margin: 20px;
         font-size: 1em;
-        position: absolute;
     }
 
     #text-mid h2 {
-        margin: 5px;
+        width: auto;
+        margin: 20px;    
     }
 
     #mid-text form {
-        height: auto;
+        width: auto;
+        margin: 20px; 
     }
 
     #contact-button {
-        background-color: #006D77;
-        color:#fff;
-        border-radius: 8px;
-        padding: 10px;
-        margin-top: 320px;
-        margin-left: 50px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-top: 20px;
     }
 
     #contact-button:hover {
-        margin-top: 320px;
-        margin-left: 50px;
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 20px;
         background-color: #fff;
         color:#006D77;
         border-radius: 8px;
@@ -786,23 +797,6 @@ input {
         display: none;
     }
 
-    #bottom-info-section {
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #bottom-info-section h2 {
-        text-align: left;
-        clear: left;
-        float: left;
-        width: 80%;
-    }
-
-    .inner-container {
-        clear: left;
-        float: left;
-        width: 100%;
-    }
 
     .bullets {
         height: 60%;
@@ -820,322 +814,110 @@ input {
         bottom: 20px;
     }
 
-
     #subject {
         width: 250px;
         height: 30%;
     }
 
-    .video-section {
-        height: auto;
+    
+    #help h2{
         text-align: center;
-    }
-
-    .card {
-        width: 100%;
-        float: left;
-        padding: 4px;
-    }
-
-    #horizontal-line {
-        border-top: 5px solid #006D77;
-      }
-
-    .links {
-        clear: both;
-        display: inline-block;
-        width: 90%;
-        margin: 30px;
-        padding: 10px;
-    }
-
-    #links-section h2 {
-        text-align: center;
+        color: #006D77;
+        margin: 50px;
     }
     
-    #links-section {
-        height: auto;
-        text-align: center;
+    #help{
+        padding: 30px;
+        width: 80%;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    #vid-head {
+        background-color: #006D77;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    iframe {
+        Width: 80%;
+        height: 300px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    
+    .video-text {
+        text-align: justify;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .inner-container {
+        clear: left;
+        float: left;
+        width: 100%;
+    }
+
+    #bottom-info-section {
+        text-align: left;
+        clear: left;
+        width: 100%;
     }
 
     #footer {
-        clear: left;
-        float: left;
-        margin-left: 0px;
-        height: 150px;
         width: 100%;
-    }
-
-}
-
-/* Resposive for larger to medium devices 1030px*/
-
-/*@media screen and (max-width: 1030px) {
-
-    .hero-image {
-        overflow: hidden;  
-        clear:both;
-        display: block;
-        height: 600px;
-        width: 100%;
-        margin-top: 70px;
-    }
-
-    #logo {
         clear: left;
         float: left;
-        margin-left: 30px;
     }
-    #menu {
-        clear: left;
-        float: left;
-        font-size: 75%;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        line-height: 25px;
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        margin: 50px;
     }
-
-    #hero-text {
-        position: absolute;
+    
+    #help{
+        margin: 0 auto;
+        width: 50%;
+        line-height: 30px;
+        text-align: justify;
     }
-
-    #info-button {
-        font-size: large;
+    
+    #vid-head {
         background-color: #006D77;
-        color:#fff;
-        border-radius: 8px;
+        color: #fff;
         padding: 10px;
-        margin-left: 10px;
-        margin-top: 100px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #info-button:hover {
-        font-size: large;
-        background-color: #fff;
-        color:#006D77;
-        border-radius: 8px;
-        padding: 10px;
-        margin-left: 10px;
-        margin-top: 100px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
-
-    #info-section {
-        margin: 0 auto;
-        height: 700px;
-    }
-
-    #image-left {
-        width: 200px;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    #image-right {
-        width: 200px;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-
-    }
-
-    #text-mid {
-        text-align: center!important;
-        clear: left;
-        float: left;
-        margin: 0 auto;
-        margin-top: 20px;
-        width: 90%;
-        height:50%;
-        padding: 20px;
-        bottom: 30px;
-        left: 5px;
-        position: relative;
-    }
-
-    #text-mid p {
-        font-size: 1em;
-    }
-
-    #bottom-info-section {
-        height: 850px;
-        margin: 0 auto;
-    }
-
-    #bottom-info-section h2 {
-        margin: 0 auto;
-        padding: 20px;
-        clear: left;
-        width: 80%;
-    }
-
-    .inner-container {
-        display: inline-block
-    }
-
-    .bullets {
-        height: 50%;
-    }
-
-    .video-section {
-        height: 800px;
-        text-align: center;
-    }
-
-    #video-text {
-        width: 40%;
-        position: absolute;
-        margin: 0 auto;
-    }
-
     .card {
-        display: inline-grid;
-        width: 400px;
-        height: 700px;
+        text-align: center;
+        width: 600px;
         margin: 0 auto;
-        margin-bottom: 30px;
-        padding: 30px;
     }
     
-    .video-section iframe {
-        Width: 400px;
+    iframe {
+        Width: 600px;
         height: 300px;
-        margin: 0 auto;
+        align-items: center;
+        padding: 10px 10px;
     }
     
     .video-text {
-        width: 400px;
         text-align: justify;
         line-height: 30px;
-        margin: 0 auto;
+        margin: auto;
+        padding: 30px;
     }
-    
+
 }
 
-/* Resposive for larger to medium devices 1366px*/
+/* Resposive for mobile devices 768px*/
+@media screen and (min-width: 768px)
+and (max-width: 991px) {
 
-/*@media screen and (max-width: 1366px) {
+}
 
-    .hero-image {
-        overflow: hidden;  
-        clear:both;
-        display: block;
-        height: 600px;
-        width: 100%;
-        margin-top: 70px;
-    }
+/* Resposive for mobile devices 991px*/
+@media screen and (min-width: 991px)
+and (max-width: 1200px) {
 
-    #logo {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-    }
-
-    #hero-text {
-        font-size: 110%;
-        color: #fff;
-        font-family: Mulish, sans-serif;
-        letter-spacing: 2px;
-        width: 300px;
-        height: 500px;
-        padding: 20px;
-        background-color: rgba(131, 197, 190, .7);
-        bottom: 100px;
-        left: 50px;
-    }
-
-    #info-section {
-        margin: 0 auto;
-        height: 700px;
-    }
-
-    #image-left {
-        width: 400px;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    #image-right {
-        width: 400px;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-
-    }
-
-    #text-mid {
-        text-align: center;
-        clear: left;
-        float: left;
-        margin: 0 auto;
-        margin-top: 20px;
-        width: 90%;
-        height:50%;
-        padding: 20px;
-        bottom: 30px;
-        left: 5px;
-        position: relative;
-    }
-
-    #text-mid p {
-        font-size: 1em;
-    }
-
-    #bottom-info-section {
-        height: 850px;
-        margin: 0 auto;
-    }
-
-    #bottom-info-section h2 {
-        margin: 0 auto;
-        padding: 20px;
-        clear: left;
-        width: 80%;
-    }
-
-    .inner-container {
-        display: inline-block
-    }
-
-    .bullets {
-        height: 50%;
-    }
-
-    .video-section {
-        height: 800px;
-        text-align: center;
-    }
-
-    #video-text {
-        width: 40%;
-        position: absolute;
-        margin: 0 auto;
-    }
-
-    .card {
-        display: inline-grid;
-        width: 400px;
-        height: 700px;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        padding: 30px;
-    }
-    
-    .video-section iframe {
-        Width: 400px;
-        height: 300px;
-        margin: 0 auto;
-    }
-    
-    .video-text {
-        width: 400px;
-        text-align: justify;
-        line-height: 30px;
-        margin: 0 auto;
-    }
-    
 }
