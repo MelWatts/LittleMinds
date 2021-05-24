@@ -1017,6 +1017,25 @@ input {
 /* Resposive for mobile devices 991px*/
 @media screen and (min-width: 992px) {
 
+    #logo i {
+        float:left;
+        font-weight: 700;
+        font-size: 280%;
+        color: #fff;
+    }
+
+    nav i {
+        color: #fff;
+    }
+    
+    #menu {
+        margin: 0 auto;
+        float: right;
+        font-size: 120%;
+        letter-spacing: 4px;
+    }
+    
+
 }
 
 /* Resposive for mobile devices 1200px*/
