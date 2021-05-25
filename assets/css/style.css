@@ -15,6 +15,12 @@ body {
 
 /* header and logo style*/
 
+header{
+    display: block;
+    margin-bottom: 75px;
+}
+
+
 nav {
     overflow: hidden;
     background-color: #006D77;
@@ -31,16 +37,21 @@ h1, h2 {
 }
 
 #logo {
-    float:left;
     font-weight: 700;
-    font-size: 280%;
-    margin-left: 150px;
+    font-size: xx-large;
+    margin-left: 5%;
     color: #fff;
+    position:relative;
+    width:40%;
+    display: inline-block;
 }
 
 #menu {
-    font-size: 120%;
+    font-size: medium;
     letter-spacing: 4px;
+    width: 55%;
+    position: relative;
+    display: contents;
 }
 
 #menu, #logo {
@@ -66,37 +77,56 @@ h1, h2 {
     border-bottom: 2px solid #fff;
 }
 
-#hero-image-home {
-    height: 600px;
+/* Hero Image Section*/
+
+.content-holder{
     width: 100%;
-    background: url('../images/pexels-michael-morse-1582736.jpg') no-repeat center center;
+    height: 600px;
+    display: block;
+    position: relative;
+   
+}
+
+#hero-image-home {
+    width: 100%;
+    display:block;
+    height: 600px;
+    z-index: -1;
+    position: relative;
+
 }
 
 #hero-image-info {
-    height: 600px;
     width: 100%;
-    background: url('../images/hero_info.jpg ') no-repeat center center;
+    display:block;
+    height: 600px;
+    z-index: -1;
+    position: relative;
 }
 
 #hero-image-contact {
-    height: 600px;
     width: 100%;
-    background: url('../images/hero-contact.jpg') no-repeat center center;
+    display:block;
+    height: 600px;
+    z-index: -1;
+    position: relative;
 }
 
+
 .hero-text {
-    position: absolute;
-    font-size: 110%;
+    position: relative;
+    font-size: medium;
     color: #fff;
     font-family: Mulish, sans-serif;
     letter-spacing: 2px;
-    width: 300px;
-    height: 400px;
+    width: 20%;
+    height: auto;
     padding: 20px;
     background-color: rgba(131, 197, 190, .7);
-    top: 100px;
+    top: -500px;
     bottom: 100px;
-    left: 150px;
+    left: 4%;
+    z-index: 1;
 }
 
 hr {
@@ -122,6 +152,9 @@ hr {
     margin-top: 50px;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/* Information middle 
+*/
 
 #info-section {
     height: 600px;
@@ -439,506 +472,127 @@ input {
 .links a:hover {
     color: #E29578;
 }
+/* Screen size maximum 321px*/
 
-/* Responsive for mobile devices 360 to 575px*/
-/*@media screen and (min-width: 360px){
+@media only screen and (max-width: 321px) {
 
-    html {
-        overflow-x: hidden;
+    header{
+        margin-bottom: 120px;
     }
-    #menu {
-        clear: left;
+
+    #logo{
+        width:100%;
+        font-size: x-large;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    #menu{
+        width:100%;
+        font-size: medium;
+        line-height: 60px;
+    }
+    #menu li{
+        width: 32%;
+        text-align: center;
         float: left;
-        font-size: 65%;
-        margin-left: 25px;
-        margin-bottom: 15px;
-        margin-top: 25px;
-        line-height: 25px;
-    }
-
-    #logo {
-        clear: left;
-        float: left;
-        line-height: 25px;
-        margin-left: 25px;
-        margin-top: 25px;
-        letter-spacing: 3px;
-    }
-
-    #logo i {
-        display: none;
+        margin-right: auto;
+        font-size: small;
     }
 
     #hero-image-home {
-        width: auto;
-        background: url('../images/mobile_images_home.jpg') no-repeat center center;
-    }
-    
-    #hero-image-info {
-        height: 600px;
-        width: 100%;
-        background: url('../images/hero_info.jpg ') no-repeat center center;
-    }
-    
-    #hero-image-contact {
-        height: 600px;
-        width: 100%;
-        background: url('../images/hero-contact.jpg') no-repeat center center;
-    }
-
-    .hero-text {
-        display: grid;
-        font-size: 110%;
-        color: #fff;
-        font-family: Mulish, sans-serif;
-        letter-spacing: 2px;
-        width: 250px;
-        height: 400px;
-        padding: 20px;
-        background-color: rgba(131, 197, 190, .7);
-        bottom: 100px;
-        left: 20px;
-        position: absolute;
-    }
-
-    #info-section {
-        height: auto;
-        margin: 0 auto; 
-    }
-
-    #image-left {
-        clear: left;
-        float: left;
-        width: 80%;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    #image-right {
-        clear: left;
-        float: left;
-        width: 80%;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-
-    }
-
-    #text-mid {
-        float: left;
-        width: 100%;
-        padding: 5px;
-        bottom: 30px;
-        left: 5px;
-        position: relative;
-    }
-
-    #text-mid p {
-        width: 90%;
-        display: inline-grid;
-        margin: 3px;
-        font-size: 1em;
-        position: absolute;
-    }
-
-    #text-mid h2 {
-        margin: 5px;
-    }
-
-    #mid-text form {
-        height: auto;
-    }
-
-    #contact-button {
-        background-color: #006D77;
-        color:#fff;
-        border-radius: 8px;
-        padding: 10px;
-        margin-top: 320px;
-        margin-left: 50px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #contact-button:hover {
-        margin-top: 320px;
-        margin-left: 50px;
-        background-color: #fff;
-        color:#006D77;
-        border-radius: 8px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #static-image {
-        display: none;
-    }
-
-    #bottom-info-section {
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #bottom-info-section h2 {
-        text-align: left;
-        clear: left;
-        float: left;
-        width: 80%;
-    }
-
-    .inner-container {
-        clear: left;
-        float: left;
-        width: 100%;
-    }
-
-    .bullets {
-        height: 60%;
-        padding-top: 80px;
-    }
-
-    #contact-section {
-        height: auto;
-    }
-
-    #contact-section p {
-        width: 80%;
-        clear: both;
-    }
-
-    #contact {
-        width: 70%;
-        position: relative;
-        bottom: 20px;
-    }
-
-
-    #subject {
-        width: 250px;
-        height: 30%;
-    }
-
-    #help h2{
-        text-align: center;
-        color: #006D77;
-        margin: 50px;
-    }
-    
-    #help{
-        margin: 0 auto;
-        width: 85%;
-        line-height: 30px;
-        text-align: justify;
-    }
-
-    .card {
-        width: auto;
-        margin: 0;
-        padding: 0;
-    }
-
-    .video-section iframe {
-        Width: 350px;
-        height: 300px;
-    }
-
-    .video-text {
-        width: 95%;
-    }
-
-    #horizontal-line {
-        border-top: 5px solid #006D77;
-        margin: 10px;
-      }
-
-    .links {
-        width: 20rem;
-        margin: 0 auto;
-        line-height: 30px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    #links-section h2 {
-        text-align: center;
-    }
-    
-    #links-section {
-        height: auto;
-        text-align: center;
-    }
-
-    #footer {
-        clear: left;
-        float: left;
-        height: 150px;
-        width: 100%;
-    }
-
-}
-
-
-/* Resposive for mobile devices 576 to 767px*/
-
-/*@media screen and (min-width: 576px){
-
-    html {
-        overflow-x: hidden;
-    }
-
-
-    #menu {
-        clear: left;
-        float: left;
-        font-size: 85%;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        line-height: 25px;
-    }
-
-    #logo {
-        clear: left;
-        float: left;
-        line-height: 25px;
-        margin: 30px;
-        letter-spacing: 2px;
-    }
-
-    #logo i {
-        display: none;
-    }
-
-    .hero-text {
-        font-size: 110%;
-        color: #fff;
-        font-family: Mulish, sans-serif;
-        letter-spacing: 2px;
-        width: 300px;
-        height: 400px;
-        padding: 20px;
-        background-color: rgba(131, 197, 190, .7);
-        top: 150px;
-        bottom: 100px;
-        left: 20px;
-    }
-
-    #info-button {
-        margin-top: 100px;
-    }
-
-    #info-button:hover {
-        margin-top: 100px;
-    }
-
-    #info-section {
-        height: auto;
-        margin: 0 auto;
+        height: 250px;
         
     }
 
-    #image-left {
-        clear: left;
-        float: left;
-        width: 80%;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    #image-right {
-        clear: left;
-        float: left;
-        width: 80%;
-        height: 50%;
-        padding: 10px;
-        margin: 20px;
-    }
-
-    #text-mid {
-        float: left;
-        width: 100%;
-        padding: 5px;
-        bottom: 30px;
-        left: 5px;
-        position: relative;
-    }
-
-    #text-mid p {
-        position: relative;
-        width: auto;
-        margin: 20px;
-        font-size: 1em;
-    }
-
-    #text-mid h2 {
-        width: auto;
-        margin: 20px;    
-    }
-
-    #mid-text form {
-        width: auto;
-        margin: 20px; 
-    }
-
-    #contact-button {
-        margin-top: 20px;
-    }
-
-    #contact-button:hover {
-        border-radius: 8px;
-        padding: 10px;
-        margin-left: 20px;
-        background-color: #fff;
-        color:#006D77;
-        border-radius: 8px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #static-image {
-        display: none;
-    }
-
-
-    .bullets {
-        height: 60%;
-        padding-top: 80px;
-    }
-
-    #contact-section p {
-        width: 80%;
-        clear: both;
-    }
-
-    #contact {
+    .hero-text {
+        
+        font-size: x-small;
+        line-height: 25px;
         width: 70%;
-        position: relative;
-        bottom: 20px;
-    }
-
-    #subject {
-        width: 250px;
-        height: 30%;
-    }
-
-    .video-section {
         height: auto;
-        text-align: center;
+        top: -240px;
+        left: 10%;
+        z-index: 1;
     }
 
-    
-    #help h2{
-        text-align: center;
-        color: #006D77;
-        margin: 50px;
-    }
-    
-    #vid-head {
-        background-color: #006D77;
-        color: #fff;
+    #info-button{
         padding: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: small;
     }
 
-    .inner-container {
-        clear: left;
-        float: left;
-        width: 100%;
-    }
-
-    #bottom-info-section {
-        text-align: left;
-        clear: left;
-        width: 100%;
-    }
-
-    #footer {
-        width: 100%;
-        clear: left;
-        float: left;
-    }
-    #help h2{
-        text-align: center;
-        color: #006D77;
-        margin: 50px;
-    }
-    
-    #help{
-        margin: 0 auto;
-        width: 80%;
-        line-height: 30px;
-        text-align: justify;
-    }
-    
-    #vid-head {
-        background-color: #006D77;
-        color: #fff;
-        padding: 10px;
-    }
-    
-    .card {
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
-    }
-    
-    .video-section iframe {
-        Width: 90%;
-        height: 300px;
-        align-items: center;
-        padding: 10px 10px;
-    }
-    
-    .video-text {
-        text-align: justify;
-        line-height: 30px;
-        margin: auto;
-        padding: 30px;
-    }
-
-    .links {
-        display: inline-grid;
-        width: 90%;
-        margin: 30px;
-        padding: 10px;
-        border: 1px solid #fff;
-        border-radius: 10px;
-        background-color: #006D77;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #links-section {
-        height: auto;
-    }
 }
 
-/* Resposive for mobile devices 768px*/
 
-/*@media screen and (min-width: 768px){
-    html {
-        overflow-x: hidden;
+
+
+@media only screen and (min-width: 322px) and (max-width: 767px) {
+
+    header{
+        margin-bottom: 120px;
     }
 
+    #logo{
+        width:100%;
+        font-size: x-large;
+        text-align: center;
+        line-height: 60px;
+    }
 
-    #menu {
-        clear: left;
+    #menu{
+        width:100%;
+        font-size: medium;
+        line-height: 60px;
+    }
+    #menu li{
+        width: 32%;
+        text-align: center;
         float: left;
-        font-size: 95%;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        line-height: 25px;
+        margin-right: auto;
+        font-size: small;
     }
 
-    #logo {
-        clear: left;
-        float: left;
-        line-height: 25px;
-        margin: 30px;
-        letter-spacing: 2px;
-    }
-
-    #logo i {
-        display: none;
+    #hero-image-home {
+        height: 250px;
+        
     }
 
     .hero-text {
+        
+        font-size: x-small;
+        line-height: 25px;
+        width: 70%;
+        height: auto;
+        top: -240px;
+        left: 10%;
+        z-index: 1;
+    }
+
+    #info-button{
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: small;
+    }
+
+}
+
+
+/* Resposive for mobile devices 1200px*/
+/*@media screen and (min-width: 1200px) {
+
+    #logo {
+        float:left;
+        font-weight: 700;
+        font-size: 280%;
+        margin-left: 60px;
+        color: #fff;
+    }
+
+    .hero-text {
+        position: absolute;
         font-size: 110%;
         color: #fff;
         font-family: Mulish, sans-serif;
@@ -947,78 +601,39 @@ input {
         height: 400px;
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
-        top: 150px;
+        top: 100px;
         bottom: 100px;
-        left: 20px;
+        left: 60px;
     }
 
-    #info-button {
-        margin-top: 100px;
+    .video-section iframe {
+        Width: 75%;
+        align-items: center;
+        padding: 10px 10px;
+        margin: 0 auto;
     }
 
-    #info-button:hover {
-        margin-top: 100px;
-    }
-    #info-section {
-        position: relative;
-    }
-
-    #container {
-        display: inherit;
+    .video-text {
+        width: 75%;
+        text-align: justify;
+        line-height: 30px;
+        margin: 0 auto;
     }
 
-    #image-left {
-        display: inline-block;
-    }
-
-    #image-right {
-        display: inline-block;
-    }
-
-    #text-mid p {
-        position: relative;
-        float: left;
-        width: 85%;
-        padding: 5px;
-        left: 5px;
-    }
-
-    #text-mid h2 {
-        text-align: center;   
-    }
-
-    #text-mid form {
-        position: relative;
-        width: auto;
-        margin: 20px; 
-    }
-
-    #contact-button:hover {
+    .links {
+        margin: 10px;
         padding: 10px;
-        background-color: #fff;
-        color:#006D77;
-        border-radius: 8px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
-    #contact-button {
-        padding: 10px;
-        background-color: #006D77;
-        color:#fff;
-        border-radius: 8px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
-    #static-image {
-        display: none;
+    #contact-section p {
+        width: 60%;
     }
 
 
 }
 
 /* Resposive for mobile devices 992px*/
-
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
     
     #logo {
         float: left;
@@ -1387,19 +1002,35 @@ input {
     }
 }
 
-/* Resposive for mobile devices 1200px*/
-@media screen and (min-width: 1200px) {
+/* Resposive for mobile devices 768px*/
+/*@media screen and (min-width: 768px){
+    html {
+        overflow-x: hidden;
+    }
+
+
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 95%;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
 
     #logo {
-        float:left;
-        font-weight: 700;
-        font-size: 280%;
-        margin-left: 60px;
-        color: #fff;
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin: 30px;
+        letter-spacing: 2px;
+    }
+
+    #logo i {
+        display: none;
     }
 
     .hero-text {
-        position: absolute;
         font-size: 110%;
         color: #fff;
         font-family: Mulish, sans-serif;
@@ -1408,33 +1039,542 @@ input {
         height: 400px;
         padding: 20px;
         background-color: rgba(131, 197, 190, .7);
-        top: 100px;
+        top: 150px;
         bottom: 100px;
-        left: 60px;
+        left: 20px;
     }
 
-    .video-section iframe {
-        Width: 75%;
-        align-items: center;
-        padding: 10px 10px;
-        margin: 0 auto;
+    #info-button {
+        margin-top: 100px;
     }
 
-    .video-text {
-        width: 75%;
-        text-align: justify;
-        line-height: 30px;
-        margin: 0 auto;
+    #info-button:hover {
+        margin-top: 100px;
+    }
+    #info-section {
+        position: relative;
     }
 
-    .links {
-        margin: 10px;
+    #container {
+        display: inherit;
+    }
+
+    #image-left {
+        display: inline-block;
+    }
+
+    #image-right {
+        display: inline-block;
+    }
+
+    #text-mid p {
+        position: relative;
+        float: left;
+        width: 85%;
+        padding: 5px;
+        left: 5px;
+    }
+
+    #text-mid h2 {
+        text-align: center;   
+    }
+
+    #text-mid form {
+        position: relative;
+        width: auto;
+        margin: 20px; 
+    }
+
+    #contact-button:hover {
         padding: 10px;
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
-    #contact-section p {
-        width: 60%;
+    #contact-button {
+        padding: 10px;
+        background-color: #006D77;
+        color:#fff;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #static-image {
+        display: none;
     }
 
 
 }
+
+/* Resposive for mobile devices 576 to 767px*/
+/*@media screen and (min-width: 576px){
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 85%;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    #logo {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin: 30px;
+        letter-spacing: 2px;
+    }
+
+    #logo i {
+        display: none;
+    }
+
+    .hero-text {
+        font-size: 110%;
+        color: #fff;
+        font-family: Mulish, sans-serif;
+        letter-spacing: 2px;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        background-color: rgba(131, 197, 190, .7);
+        top: 150px;
+        bottom: 100px;
+        left: 20px;
+    }
+
+    #info-button {
+        margin-top: 100px;
+    }
+
+    #info-button:hover {
+        margin-top: 100px;
+    }
+
+    #info-section {
+        height: auto;
+        margin: 0 auto;
+        
+    }
+
+    #image-left {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #text-mid {
+        float: left;
+        width: 100%;
+        padding: 5px;
+        bottom: 30px;
+        left: 5px;
+        position: relative;
+    }
+
+    #text-mid p {
+        position: relative;
+        width: auto;
+        margin: 20px;
+        font-size: 1em;
+    }
+
+    #text-mid h2 {
+        width: auto;
+        margin: 20px;    
+    }
+
+    #mid-text form {
+        width: auto;
+        margin: 20px; 
+    }
+
+    #contact-button {
+        margin-top: 20px;
+    }
+
+    #contact-button:hover {
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 20px;
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #static-image {
+        display: none;
+    }
+
+
+    .bullets {
+        height: 60%;
+        padding-top: 80px;
+    }
+
+    #contact-section p {
+        width: 80%;
+        clear: both;
+    }
+
+    #contact {
+        width: 70%;
+        position: relative;
+        bottom: 20px;
+    }
+
+    #subject {
+        width: 250px;
+        height: 30%;
+    }
+
+    .video-section {
+        height: auto;
+        text-align: center;
+    }
+
+    
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        margin: 50px;
+    }
+    
+    #vid-head {
+        background-color: #006D77;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .inner-container {
+        clear: left;
+        float: left;
+        width: 100%;
+    }
+
+    #bottom-info-section {
+        text-align: left;
+        clear: left;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+        clear: left;
+        float: left;
+    }
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        margin: 50px;
+    }
+    
+    #help{
+        margin: 0 auto;
+        width: 80%;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    #vid-head {
+        background-color: #006D77;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .card {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .video-section iframe {
+        Width: 90%;
+        height: 300px;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    
+    .video-text {
+        text-align: justify;
+        line-height: 30px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .links {
+        display: inline-grid;
+        width: 90%;
+        margin: 30px;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background-color: #006D77;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #links-section {
+        height: auto;
+    }
+}
+
+
+/* Responsive for mobile devices 360 to 575px*/
+/*@media screen and (min-width: 360px){
+
+    html {
+        overflow-x: hidden;
+    }
+    #menu {
+        clear: left;
+        float: left;
+        font-size: 65%;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        line-height: 25px;
+    }
+
+    #logo {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin-left: 25px;
+        margin-top: 25px;
+        letter-spacing: 3px;
+    }
+
+    #logo i {
+        display: none;
+    }
+
+    #hero-image-home {
+        width: auto;
+        background: url('../images/mobile_images_home.jpg') no-repeat center center;
+    }
+    
+    #hero-image-info {
+        height: 600px;
+        width: 100%;
+        background: url('../images/hero_info.jpg ') no-repeat center center;
+    }
+    
+    #hero-image-contact {
+        height: 600px;
+        width: 100%;
+        background: url('../images/hero-contact.jpg') no-repeat center center;
+    }
+
+    .hero-text {
+        display: grid;
+        font-size: 110%;
+        color: #fff;
+        font-family: Mulish, sans-serif;
+        letter-spacing: 2px;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        background-color: rgba(131, 197, 190, .7);
+        bottom: 100px;
+        left: 20px;
+        position: absolute;
+    }
+
+    #info-section {
+        height: auto;
+        margin: 0 auto; 
+    }
+
+    #image-left {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+
+    }
+
+    #text-mid {
+        float: left;
+        width: 100%;
+        padding: 5px;
+        bottom: 30px;
+        left: 5px;
+        position: relative;
+    }
+
+    #text-mid p {
+        width: 90%;
+        display: inline-grid;
+        margin: 3px;
+        font-size: 1em;
+        position: absolute;
+    }
+
+    #text-mid h2 {
+        margin: 5px;
+    }
+
+    #mid-text form {
+        height: auto;
+    }
+
+    #contact-button {
+        background-color: #006D77;
+        color:#fff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 320px;
+        margin-left: 50px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #contact-button:hover {
+        margin-top: 320px;
+        margin-left: 50px;
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #static-image {
+        display: none;
+    }
+
+    #bottom-info-section {
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #bottom-info-section h2 {
+        text-align: left;
+        clear: left;
+        float: left;
+        width: 80%;
+    }
+
+    .inner-container {
+        clear: left;
+        float: left;
+        width: 100%;
+    }
+
+    .bullets {
+        height: 60%;
+        padding-top: 80px;
+    }
+
+    #contact-section {
+        height: auto;
+    }
+
+    #contact-section p {
+        width: 80%;
+        clear: both;
+    }
+
+    #contact {
+        width: 70%;
+        position: relative;
+        bottom: 20px;
+    }
+
+
+    #subject {
+        width: 250px;
+        height: 30%;
+    }
+
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        margin: 50px;
+    }
+    
+    #help{
+        margin: 0 auto;
+        width: 85%;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .card {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-section iframe {
+        Width: 350px;
+        height: 300px;
+    }
+
+    .video-text {
+        width: 95%;
+    }
+
+    #horizontal-line {
+        border-top: 5px solid #006D77;
+        margin: 10px;
+      }
+
+    .links {
+        width: 20rem;
+        margin: 0 auto;
+        line-height: 30px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #links-section h2 {
+        text-align: center;
+    }
+    
+    #links-section {
+        height: auto;
+        text-align: center;
+    }
+
+    #footer {
+        clear: left;
+        float: left;
+        height: 150px;
+        width: 100%;
+    }
+
+}
+
+
+
