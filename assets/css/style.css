@@ -489,8 +489,9 @@ input {
 
     #menu{
         width:100%;
-        font-size: medium;
+        font-size: small;
         line-height: 60px;
+        letter-spacing: 2px;
     }
     #menu li{
         width: 32%;
@@ -505,12 +506,11 @@ input {
         
     }
 
-    .hero-text {
-        
+    .hero-text {   
         font-size: x-small;
         line-height: 25px;
         width: 70%;
-        height: auto;
+        height: 200px;
         top: -240px;
         left: 10%;
         z-index: 1;
@@ -519,8 +519,262 @@ input {
     #info-button{
         padding: 10px;
         margin-left: 10px;
-        margin-top: 30px;
+        margin-top: 5px;
         font-size: small;
+    }
+
+    #info-button:hover{
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    #info-section {
+        height: auto;
+        margin: 0 auto; 
+    }
+
+    .content-holder{
+        width: 100%;
+        height: 300px;
+        display: block;
+        position: relative;
+       
+    }
+
+    #container {
+        padding-top: 30px;
+        margin:auto;
+        height: 600px;
+    }
+
+    #image-left {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #image-right {
+        clear: left;
+        float: left;
+        width: 80%;
+        height: 50%;
+        padding: 10px;
+        margin: 20px;
+
+    }
+
+    #text-mid {
+        width: 100%;
+        top: 10px;
+
+    }
+
+    #text-mid p {
+        width: 90%;
+        margin: 20px;
+        font-size: 1em;
+    }
+
+    #text-mid h2 {
+        margin: 20pxx;
+    }
+
+    #contact-button {
+        background-color: #006D77;
+        color:#fff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-left: 50px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #contact-button:hover {
+        margin-top: 320px;
+        margin-left: 50px;
+        background-color: #fff;
+        color:#006D77;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #static-image {
+        display: none;
+    }
+
+    #bottom-info-section {
+        height: 700px;
+    }
+    
+    #bottom-info-section h2 {
+        text-align: center;
+        font-family: Mulish, sans-serif;
+        font-weight:700;
+        letter-spacing: 2px;
+        margin: 30px;
+        color: #006D77;
+    }
+    
+    .inner-container {
+        width: auto;
+        position: relative;
+        display: inline-table;
+    }
+    
+    #footer {
+        width: 100%;
+        height: fit-content;
+        background-color: #006d77;
+        margin-top: 10px;
+    }
+    
+    #footer p {
+        text-align: center;
+        color: #fff;
+        padding-top: 30px;
+    }
+    
+    #footer-contact {
+        background-color: #83C5BE;
+    }
+    
+    #footer-contact p {
+        text-align: center;
+        color: #fff;
+        padding-top: 30px;
+    }
+    
+    .social-media {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .social-media > li {
+        display:inline;
+        position: relative;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .social-media i {
+        font-size: 180%;
+        margin: 1%;
+        padding: 5%;
+        color: #ffffff;
+    }
+    
+    #contact-section {
+        background-color: #006D77;
+        height: 800px;
+    }
+    
+    #contact-section p {
+        width: 80%;
+    }
+    
+    #contact {
+        width: 245px;
+        padding: 15px;
+    }
+    
+    input {
+        height: 30px;
+        width: 200px;
+        border: 1px solid #000;
+        border-radius: 3px;
+        margin: 10px;
+        display: inline-block;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #subject {
+        width: 250px;
+        height: 150px;
+        margin-top: 10px;
+        border: 1px solid #000;
+        border-radius: 3px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+    #submit {
+        background-color: #006D77;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    #submit:hover {
+        background-color: #fff;
+        color: #006D77;
+        font-weight: 700;
+    }
+    
+    
+    .video-section {
+        height: auto;
+        text-align: center;
+    }
+    
+    #help h2{
+        text-align: center;
+        color: #006D77;
+        width: 80%;
+    }
+    
+    #help{
+        margin: 0 auto;
+        width: 95%;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    #vid-head {
+        background-color: #006D77;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .card {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .video-section iframe {
+        Width: 95%;
+        align-items: center;
+        padding: 10px 10px;
+        margin: 0 auto;
+    }
+
+    .video-text {
+        width: 85%;
+        text-align: justify;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    
+    #links-section h2 {
+        text-align: center;
+        color: #006D77;
+        margin: 15px;
+    }
+    
+    #links-section {
+        width: 95%;
+        text-align: center;
+        height: fit-content;
+    
+    }
+    
+    .links {
+        display: inline-grid;
+        margin: 10px;
+        padding: 10px;
+        height: auto;
+        width:fit-content;
     }
 
 }
@@ -528,7 +782,7 @@ input {
 
 
 
-@media only screen and (min-width: 322px) and (max-width: 767px) {
+/*@media only screen and (min-width: 322px) and (max-width: 767px) {
 
     header{
         margin-bottom: 120px;
@@ -1343,63 +1597,6 @@ input {
 /* Responsive for mobile devices 360 to 575px*/
 /*@media screen and (min-width: 360px){
 
-    html {
-        overflow-x: hidden;
-    }
-    #menu {
-        clear: left;
-        float: left;
-        font-size: 65%;
-        margin-left: 25px;
-        margin-bottom: 15px;
-        margin-top: 25px;
-        line-height: 25px;
-    }
-
-    #logo {
-        clear: left;
-        float: left;
-        line-height: 25px;
-        margin-left: 25px;
-        margin-top: 25px;
-        letter-spacing: 3px;
-    }
-
-    #logo i {
-        display: none;
-    }
-
-    #hero-image-home {
-        width: auto;
-        background: url('../images/mobile_images_home.jpg') no-repeat center center;
-    }
-    
-    #hero-image-info {
-        height: 600px;
-        width: 100%;
-        background: url('../images/hero_info.jpg ') no-repeat center center;
-    }
-    
-    #hero-image-contact {
-        height: 600px;
-        width: 100%;
-        background: url('../images/hero-contact.jpg') no-repeat center center;
-    }
-
-    .hero-text {
-        display: grid;
-        font-size: 110%;
-        color: #fff;
-        font-family: Mulish, sans-serif;
-        letter-spacing: 2px;
-        width: 250px;
-        height: 400px;
-        padding: 20px;
-        background-color: rgba(131, 197, 190, .7);
-        bottom: 100px;
-        left: 20px;
-        position: absolute;
-    }
 
     #info-section {
         height: auto;
