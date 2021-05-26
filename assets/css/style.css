@@ -1008,7 +1008,7 @@ input {
     }
 
     .content-holder {
-        height: 520px;
+        height: 500px;
     }
 
     #container {
@@ -1117,6 +1117,70 @@ input {
         box-shadow: 5px 5px rgb(0 19 20 / 50%);
     }
 
+    .card {
+        display: contents;
+        width: 75%;
+    }
+
+    .video-text {
+        width: 93%;
+        text-align: justify;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .video-section {
+        height: auto;
+        text-align: center;
+    }
+    #links-section h2 {
+        text-align: center;
+        color: #006D77;
+        margin: 15px;
+    }
+    
+    #links-section {
+        text-align: center;
+        height: fit-content;
+    
+    }
+    
+    .links {
+        display: inline-grid;
+        margin: 10px;
+        padding: 10px;
+        height: auto;
+        width:fit-content;
+    }
+
+    #info-section {
+        height: auto;
+        margin: 0 auto; 
+    }
+
+    #help{
+        margin: 0 auto;
+        width: 80%;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    #contact {
+        margin: 0 auto;
+        border: 2px solid #000;
+        background-color: #EDF6F9;
+        border-radius: 3px;
+        width: 50%;
+        padding: 30px;
+    }
+
+    #contact-section p {
+        color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px;
+    }
 }
 
 
