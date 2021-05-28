@@ -13,39 +13,53 @@
 
 <body>
     <header>
-        <nav>
-            <a href="index.html" id="brand">
-                <h1 id="logo">Little Minds <i class="far fa-smile"></i></h1>
-            </a>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="information.html">Information</a>
-                </li>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>          
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-sm-12 col-md-3 col-6">
+                    <a href="index.html" id="brand">
+                        <h1 id="logo">Little Minds <i class="far fa-smile"></i></h1>
+                    </a>
+                </div>
+                <div class="col col-sm-12  col-md-9 col-6">
+                    <nav>
+                        <ul id="menu">
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a href="information.html">Information</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="active">Home</a>
+                            </li>
+                        </ul>          
+                    </nav>
+                </div>
+
+
+               
+            </div>
+        </div>       
     </header>
-    
-    
-    <div class="content-holder">
-        <img id="hero-image-home" src="./assets/images/pexels-michael-morse-1582736.jpg" />
 
-        <div class="hero-text">
-            <h2>Information and advice for parents and carers of children with mental health issues.</h2>
-            <br>
-            <hr>
-            <form method="get" action="information.html">
-            <button id="info-button" type="submit">More information</button>
-            </form>
+
+
+
+
+
+    <section>
+        <div class="content-holder">
+            <img id="hero-image-home" src="./assets/images/pexels-michael-morse-1582736.jpg" alt="Two girls playing in the Autumn leaves"> 
+            <div class="hero-text">
+                <h2>Information and advice for parents and carers of children with mental health issues.</h2>
+                <br>
+                <hr>
+                <form method="get" action="information.html">
+                <button id="info-button" type="submit">More information</button>
+                </form>
+            </div>
         </div>
-
-    </div>
-
+    </section>
     <section id="info-section">
         <div id="container">
             <div id="image-left"></div>
@@ -62,7 +76,24 @@
             </div>
         </div>
     </section>
-   
+
+    <footer id="footer">
+        <p>Copyright: LittleMinds 2021</p>
+        <ul class="social-media">
+            <li>
+                <a href="http://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="http://twitter.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="http://instagram.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </footer>
     <script src="https://kit.fontawesome.com/12020aaec7.js" crossorigin="anonymous"></script>
 </body>
 

@@ -161,35 +161,34 @@ hr {
     margin: 0 auto;
 }
 
-#container {
-    padding-top: 30px;
-    height: 600px;
-    margin: 0 auto;
+
+.container-1 {
+    columns: 3;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.container-1, div {
+    padding: 10px;
 }
 
 #image-left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
     height: 100%;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    flex: 1;
+    order: 1;
     background: url('../images/image_left.jpg') no-repeat center center;
 }
 
 #text-mid {
-    margin: 0 auto;
-    margin-top: 100px;
-    width: 33%;
-    height: 400px;
+    flex: 1;
+    order: 2;
 }
 
 #image-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
     height: 100%;
-    margin-right: 30px;
+    flex: 1;
+    order: 3;
     background: url('../images/image-right.jpg') no-repeat center center;
 }
 
@@ -231,12 +230,24 @@ hr {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.container-2 {
+    columns: 3;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.container-2, div {
+    padding: 10px;
+}
+*/
+
 #static-image {
     background: url('../images/trees.jpg') no-repeat center center;
     background-attachment: fixed;
     height: 400px;
 }
-
+/*
 #bottom-info-section {
     height: 700px;
 }
@@ -474,7 +485,7 @@ input {
 }
 /* Screen size maximum 321px*/
 
-@media only screen and (max-width: 321px) {
+/*@media only screen and (max-width: 321px) {
 
     header{
         margin-bottom: 120px;
@@ -787,7 +798,7 @@ input {
 
 
 /* Min width 322 to Max width 767px */
-@media only screen and (min-width: 322px) and (max-width: 767px) {
+/*@media only screen and (min-width: 322px) and (max-width: 767px) {
 
     header{
         margin-bottom: 120px;
@@ -999,7 +1010,7 @@ input {
 
 
 /* Min width 768 to Max Width 1200px*/
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+/*@media only screen and (min-width: 768px) and (max-width: 1200px) {
 
     #hero-image-home {
         height: 450px;  
