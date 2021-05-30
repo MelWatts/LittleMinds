@@ -173,6 +173,50 @@
     color: #E29578;
 }
 
+#contact-section {
+  background-color: #83C5BE;
+}
+
+#contact-section p {
+  color: #fff;
+  text-align: center;
+}
+
+#contact {
+  border: 2px solid #000;
+  background-color: #EDF6F9;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#subject {
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#submit {
+  background-color: #006D77;
+  color: #fff;
+  font-weight: 700;
+}
+
+#submit:hover {
+  background-color: #fff;
+  color: #006D77;
+  font-weight: 700;
+}
+
   
   .footer {
     background-color: #006D77;
