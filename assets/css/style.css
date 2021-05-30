@@ -64,25 +64,40 @@
     background-color: #0099cc;
   }
 
+  #info-button {
+    font-size: large;
+    background-color: #006D77;
+    color:#fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+  #info-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  #info-button:hover {
+      background-color: #fff;
+      color:#006D77;
+      padding: 10px;
+      margin-left: 10px;
+      margin-top: 50px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#info-button a:hover {
+  color: #006D77;
+  text-decoration: none;
+}
 
   #info {
     overflow:hidden;
     height: fit-content;
   }
-
-  #image-left {
-    height: 100%;
-    flex: 1;
-    order: 1;
-    background: url('../images/image_left.jpg') no-repeat center center;
-}
-
-  #image-right {
-    height: 100%;
-    flex: 1;
-    order: 1;
-    background: url('../images/image-right.jpg') no-repeat center center;
-}
   
   .aside {
     height:fit-content;
@@ -93,23 +108,54 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);  
   }
 
+  #contact-button {  
+    font-size: large;
+    background-color: #006D77;
+    color:#fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+  #contact-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  #contact-button:hover {
+      background-color: #fff;
+      color:#006D77;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+  #contact-button a:hover {
+    color: #006D77;
+    text-decoration: none;
+}
+
   .aside img {
     width: 100%;
 }
 
-
   .bullets {
     padding-top: 10px;
-    height:300px;
+    padding-bottom: 20px;
     background-color: #83C5BE;
     color:#fff;
     line-height: 25px;
     box-shadow: 5px 5px rgba(0,19,20,0.5);
     text-align: left;
 }
+
+  #video-section {
+    text-align: -webkit-center;
+
+  }
+
   iframe {
-    Width: 50%;
-    text-align: center;
+    Width: 90%;
 }
 
   #help h2{
@@ -151,7 +197,7 @@
 }
 
   .links {
-    height: 300px;
+    height: 100%;
     padding: 10px;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -173,48 +219,50 @@
     color: #E29578;
 }
 
-#contact-section {
+  #contact-section {
   background-color: #83C5BE;
 }
 
-#contact-section p {
+  #contact-section p {
   color: #fff;
   text-align: center;
 }
 
-#contact {
-  border: 2px solid #000;
-  background-color: #EDF6F9;
-  border-radius: 3px;
-  padding: 30px;
+  #contact {
+    border: 2px solid #000;
+    background-color: #EDF6F9;
+    border-radius: 3px;
+    padding: 30px;
 }
 
-input {
-  height: 30px;
-  width: 200px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  margin: 10px;
-  display: inline-block;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  input {
+    width: 90%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-#subject {
-  margin-top: 10px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-#submit {
-  background-color: #006D77;
-  color: #fff;
-  font-weight: 700;
+  #subject {
+    width: 90%;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-#submit:hover {
-  background-color: #fff;
-  color: #006D77;
-  font-weight: 700;
+  #submit {
+    background-color: #006D77;
+    color: #fff;
+    font-weight: 700;
+}
+
+  #submit:hover {
+    background-color: #fff;
+    color: #006D77;
+    font-weight: 700;
 }
 
   
@@ -226,35 +274,25 @@ input {
     padding: 15px;
 }
 
-.footer p {
+  .footer p {
     text-align: center;
     color: #fff;
-    padding-top: 30px;
 }
 
-.footer-contact {
-    background-color: #83C5BE;
-}
 
-.footer-contact p {
-    text-align: center;
-    color: #fff;
-    padding-top: 30px;
-}
-
-.social-media {
+  .social-media {
     text-align: center;
     margin: auto;
 }
 
-.social-media > li {
+  .social-media > li {
     display:inline;
     position: relative;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
 
-.social-media i {
+  .social-media i {
     font-size: 180%;
     margin: 1%;
     padding: 5%;
