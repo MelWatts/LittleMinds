@@ -128,9 +128,9 @@ This project was build using the following technologies:
 * Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
 * README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
 
-## Testing
+### Testing
 
-### Testing Plan
+## Testing Plan
 
 I started this project, based on a desktop, once I was happy with the look I worked on my media query starting with mobile and working up through the various break off points of various screen sizes. This proved to be a mistake, as I was writing so much css for each screen size, my css document started to get overwhelming. After talks with my mentor we decided to go down the columns route as it proved much easier and better for all screen sizes. 
 
@@ -163,33 +163,28 @@ As a Returning Visitor, I want them to find the best way to get in contact with 
 * The navigation bar clearly highlights the "Contact Us" Page.
 
 * Here they can fill out the form on the page or alternatively they can message the organisation on social media.
-The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+* The footer contains links to the organisations Facebook, Twitter and Instagram page.
+* Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+* As a Returning Visitor, I want them to find the Facebook Group link so that they can join and interact with others in the community.
 
-The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+* The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
 
 ## Frequent User Goals
 
-# As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+# As a Frequent User, I want to check to see if there are any newly added help or advice.
 
-The user would already be comfortable with the website layout and can easily click the banner message.
-As a Frequent User, I want to check to see if there are any new blog posts.
+* The user would already be comfortable with the website layout and can easily click the call to action buttons or teh navigation bar.
+* As a Frequent User, I want them to check to see if there are any new infomation, tips or help.
+* The user would already be comfortable with the website layout and can easily click the links to external sites.
+* As a Frequent User, I want them to follow us on social media.
+* There is a "Submit" button to the bottom of the input field which is located close to the field and can easily be distinguished.
 
-The user would already be comfortable with the website layout and can easily click the blog link
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+### Further Testing
 
-At the bottom of every page their is a footer which content is consistent throughout all pages.
-To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-Further Testing
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-A large amount of testing was done to ensure that all pages were linking correctly.
-Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* A large amount of testing was done to ensure that all sections were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Implementation
 
@@ -243,11 +238,45 @@ Early on I was having a hard time getting the images to display properly. They l
 This project is deployed using gitpod in combination with github pages.
 I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit, unfortunately in my haste I have committed a few spelling errors of which I did a quick google search to see if I could rectify this, I couldn't see a way.
 
-Deployment was done in the following way:
+### GitHub Pages
 
-1. Click on settings tab on my repository.
-2. Click the pages tab. 
-3. Set source branch to master. This created a link to the deployed version of the website.
+## The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+   * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+7. Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
 
 ## Credits 
