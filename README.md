@@ -25,6 +25,7 @@ A deployed version of my website can be found [here.] (https://melwatts.github.i
 * [Testing](#testing)
   + [Testing-plan](#testing-plan)
   + [Implementation](#implementation)
+  + [Testing](#Testing User Stories from User Experience (UX) Section)
   + [Results](#results)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
@@ -38,13 +39,17 @@ A deployed version of my website can be found [here.] (https://melwatts.github.i
 User stories
 ## First time visitor goals
 
-•	As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
-•	As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
+* •	As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
+* •	As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
+* •	As a First Time Visitor, I want visitors easily understand the main purpose of the site and learn more about the organisation.
+* •	As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
 ## Returning visitor goals:
 
-•	As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
-•	As a returning 
+* •	As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
+* •	As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
+* •	As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
+* •	As a Returning Visitor, I want visitors to find community links and help on external resources.
 
 
 The end goal of the project is to help parents and carers if they are worried about their child's behaviour and wellbeing. Providing them with links to professionals and youtubes video's of meditations and techniques.
@@ -83,6 +88,10 @@ This project is a 3 page website. With the home page being things that can help 
 
 The original wireframes can be found [here](assets/images/wireframe.JPG)
 
+The Tablet wireframe can be found [Here] (assets/images/tablet-wireframe.JPG)
+
+The Mobile wireframe can be found [Here] (assets/images/mobile-wireframe.JPG)
+
 ### Changes to wireframes
 
 My site has changed considerably from the intitial wireframe, as I had my initial idea and as I started to build my page it took me in another direction, the more I descovered new methods.
@@ -115,12 +124,72 @@ This project was build using the following technologies:
 * W3C HTML-validator: Used to find mistakes in my html code. [HTML-validator](https://validator.w3.org/nu/#textarea)
 * FontAwesome: used for icons in the logo. [FontAwesome](https://fontawesome.com/)
 * Coolors: to chose a color scheme. [Coolors](https://coolors.co/palettes/trending)
+* Responsinator to check my website on all devices. [Responsinator](https://www.responsinator.com/).
+* Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
+* README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
 
 ## Testing
 
 ### Testing Plan
 
 I started this project, based on a desktop, once I was happy with the look I worked on my media query starting with mobile and working up through the various break off points of various screen sizes. This proved to be a mistake, as I was writing so much css for each screen size, my css document started to get overwhelming. After talks with my mentor we decided to go down the columns route as it proved much easier and better for all screen sizes. 
+
+### Testing User Stories from User Experience (UX) Section
+
+## First Time Visitor Goals
+
+# As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "More Information" Call to action button.
+* The main points are made immediately with the navigation bar and call to action buttons
+* The user has three options, click the call to action buttons, scroll through the information, tips and help or click on the navigation bar to go directly to the place they need. b
+* As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+* The site has been designed to be fluid and informative, easy to navigate. Each link describes what section teh visitor will end up on.
+* Throughout the site there are call to actions, at the bottom there is a simple easy to fill out contact form.
+* As a First Time Visitor, I want them to locate our social media links to see our following on social media to determine how trusted and known we are.
+
+* Once the new visitor has read the gone through teh site, they will notice helpful links to on-line forums and professional therapists.
+* The user can also scroll to the bottom of any page on the site to locate teh contact us form and social media links in the footer.
+* At the bottom of the sit on the Contact Us section, the user can see, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+## Returning Visitor Goals
+
+# As a Returning Visitor, I want the visitor to find the where they were previously and feel reasured we are here to help.
+
+
+As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
+
+* The navigation bar clearly highlights the "Contact Us" Page.
+
+* Here they can fill out the form on the page or alternatively they can message the organisation on social media.
+The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+
+The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
+If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+
+## Frequent User Goals
+
+# As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+
+The user would already be comfortable with the website layout and can easily click the banner message.
+As a Frequent User, I want to check to see if there are any new blog posts.
+
+The user would already be comfortable with the website layout and can easily click the blog link
+As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+At the bottom of every page their is a footer which content is consistent throughout all pages.
+To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
+There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+Further Testing
+The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+A large amount of testing was done to ensure that all pages were linking correctly.
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Implementation
 

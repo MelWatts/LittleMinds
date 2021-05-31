@@ -150,6 +150,8 @@
     line-height: 25px;
     box-shadow: 5px 5px rgba(0,19,20,0.5);
     text-align: left;
+    height: 270px;
+    overflow-y: scroll;
 }
 
   .video-section {
@@ -250,6 +252,7 @@
     margin-top: 10px;
     border: 1px solid #000;
     border-radius: 3px;
+    margin-left: 10px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
