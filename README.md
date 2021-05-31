@@ -38,17 +38,17 @@ A deployed version of my website can be found [here.] (https://melwatts.github.i
 User stories
 ## First time visitor goals
 
-* •	As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
-* •	As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
-* •	As a First Time Visitor, I want visitors easily understand the main purpose of the site and learn more about the organisation.
-* •	As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+* As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
+* As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
+* As a First Time Visitor, I want visitors easily understand the main purpose of the site and learn more about the organisation.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
 ## Returning visitor goals:
 
-* •	As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
-* •	As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
-* •	As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
-* •	As a Returning Visitor, I want visitors to find community links and help on external resources.
+* As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
+* As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
+* As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
+* As a Returning Visitor, I want visitors to find community links and help on external resources.
 
 
 The end goal of the project is to help parents and carers if they are worried about their child's behaviour and wellbeing. Providing them with links to professionals and youtubes video's of meditations and techniques.
@@ -137,7 +137,7 @@ I started this project, based on a desktop, once I was happy with the look I wor
 
 ## First Time Visitor Goals
 
-# As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
 * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "More Information" Call to action button.
 * The main points are made immediately with the navigation bar and call to action buttons
@@ -154,7 +154,7 @@ I started this project, based on a desktop, once I was happy with the look I wor
 
 ## Returning Visitor Goals
 
-# As a Returning Visitor, I want the visitor to find the where they were previously and feel reasured we are here to help.
+As a Returning Visitor, I want the visitor to find the where they were previously and feel reasured we are here to help.
 
 
 As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
@@ -170,7 +170,7 @@ As a Returning Visitor, I want them to find the best way to get in contact with 
 
 ## Frequent User Goals
 
-# As a Frequent User, I want to check to see if there are any newly added help or advice.
+As a Frequent User, I want to check to see if there are any newly added help or advice.
 
 * The user would already be comfortable with the website layout and can easily click the call to action buttons or teh navigation bar.
 * As a Frequent User, I want them to check to see if there are any new infomation, tips or help.
