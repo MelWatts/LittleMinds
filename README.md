@@ -25,7 +25,6 @@ A deployed version of my website can be found [here.] (https://melwatts.github.i
 * [Testing](#testing)
   + [Testing-plan](#testing-plan)
   + [Implementation](#implementation)
-  + [Testing](#Testing User Stories from User Experience (UX) Section)
   + [Results](#results)
 * [Bugs](#bugs)
 * [Deployment](#deployment)
@@ -88,9 +87,9 @@ This project is a 3 page website. With the home page being things that can help 
 
 The original wireframes can be found [here](assets/images/wireframe.JPG)
 
-The Tablet wireframe can be found [Here] (assets/images/tablet-wireframe.JPG)
+The Tablet wireframe can be found [here](assets/images/tablet-wireframe.JPG)
 
-The Mobile wireframe can be found [Here] (assets/images/mobile-wireframe.JPG)
+The Mobile wireframe can be found [here](assets/images/mobile-wireframe.JPG)
 
 ### Changes to wireframes
 
