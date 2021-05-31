@@ -89,9 +89,9 @@
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-#info-button a:hover {
-  color: #006D77;
-  text-decoration: none;
+  #info-button a:hover {
+    color: #006D77;
+    text-decoration: none;
 }
 
   #info {
@@ -212,6 +212,7 @@
     text-align: left;
     color: #fff;
     text-decoration: none;
+    line-height: 25px;
 }
 
   .links a:hover {
